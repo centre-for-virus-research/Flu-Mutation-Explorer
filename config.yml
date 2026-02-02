@@ -6,7 +6,7 @@ default:
       transposed: "transposed.rds"
       metadata: "metadata_clusters_segments.rds"
       trees: "current_version/clusters_trees/"
-      blast_db: "IAV_DB_250217_v2/clusters_trees/proteins_AA/"
+      blast_db: "current_version/blastdb/"
       ref_set_aa: "BLAST_segment_recognizer/ref_set_AA"
       ref_h3_h5: "Ref_H3_H5/Ref_H3_H5"
     adaptation_mutations:

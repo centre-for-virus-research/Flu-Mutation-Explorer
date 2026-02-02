@@ -371,7 +371,7 @@ server <- function(id) {
     trimmed <- 
       input$query %>% 
       str_trim %>% # trim whitespace
-      str_replace_all("[\r\n]" , "") # remove line breaks
+      str_replace_all("[\r\n-]" , "") # remove line breaks and gaps (-)
     
     req(trimmed) # require trimmed string to not be empty
     
@@ -524,7 +524,7 @@ server <- function(id) {
     trimmed <-
       input$query_adaptation %>%
       str_trim %>% 
-      str_replace_all("[\r\n]" , "") # remove line breaks
+      str_replace_all("[\r\n-]" , "") # remove line breaks and gaps (-)
     
     req(trimmed) # require trimmed string to not be empty
       
@@ -606,13 +606,13 @@ server <- function(id) {
     message("Protein: ", protein) # DEBUG    
     # tryCatch block to handle errors for pairwiseAlignment in case of invalid amino acid sequence
     pairwise <- NULL # pairwise alignment
-    tryCatch({t
+    tryCatch({
       # Perform pairwise alignment with reference sequence TODO display alignment TODO refine alignment parameters gap penalty?
       pairwise <- pairwiseAlignment(aas, ref_seqs[[protein]][[index]], substitutionMatrix = "BLOSUM80")
       print(pairwise)
     }, error = function(e) {
       message(e$message) # print error message to console
-      showNotification("Pairwise alignment error", type = "error")
+      showNotification(str_c("Pairwise alignment error: ", e$message, ". Ensure the sequence contains only valid amino acid characters."), type = "error")
     })
     req(pairwise) # exit observer if alignment not created
     
