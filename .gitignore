@@ -1,0 +1,11 @@
+*.csv
+*.rds
+*.fasta
+IAV_DB_250217_v2/
+current_version/
+Ref_H3_H5/
+BLAST_segment_recognizer/ref_set*
+._*
+*.log
+.Rhistory
+.RData

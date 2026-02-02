@@ -1,0 +1,37 @@
+#taxonium-container {
+  height: 70vh;
+  resize: vertical;
+  overflow: auto;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 1rem;
+}
+
+#app-taxoniumComponent {
+    height: calc(100% - 1rem);
+}
+
+.footer-logo {
+  max-height: 71px;
+}
+
+.rvc-logo {
+  background-color: rgb(127, 63, 152);
+}
+
+a {
+  color: revert;
+  text-decoration: revert;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: revert;
+}
+
+#taxonium-container :is(h1, h2, h3, h4, h5, h6) {
+    font-size: inherit;
+}
+
+#taxonium-container a {
+  color: inherit;
+  text-decoration: inherit;
+}

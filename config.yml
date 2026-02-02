@@ -1,0 +1,33 @@
+default:
+  app_name: "Flu-GDB Mutation Explorer"
+  paths:
+    data:
+      discarded: "discarded.rds"
+      transposed: "transposed.rds"
+      metadata: "metadata_clusters_segments.rds"
+      trees: "current_version/clusters_trees/"
+      blast_db: "IAV_DB_250217_v2/clusters_trees/proteins_AA/"
+      ref_set_aa: "BLAST_segment_recognizer/ref_set_AA"
+      ref_h3_h5: "Ref_H3_H5/Ref_H3_H5"
+    adaptation_mutations:
+      seg1: "Clean PB2.csv"
+      seg2: "Clean PB1.csv"
+      seg3: "Clean PA.csv"
+      seg4: "Clean HA.csv"
+      seg5: "Clean NP.csv"
+      seg6: "Clean NA.csv"
+      seg7: "Clean M.csv"
+      seg8: "Clean NS.csv"
+  
+  # Reference sequences for "View" mode
+  # Updated to use sequences that actually exist in discarded.rds
+  references:
+    turkey:
+      seg1: "NC_007373"      # Was EU636689 (not found) - using NC reference
+      seg2: "EU636690"       # VERIFIED - exists in data
+      seg3: "NC_007371"      # Was EU636691 (not found) - using NC reference  
+      seg4: "KX121222"       # HA uses special logic, but this exists for fallback
+      seg5: "MN088743"       # Was CY015122 (not found) - using first available
+      seg6: "GU052512"       # VERIFIED - exists in data (also NC_007361 available)
+      seg7: "NC_007367"      # Was EU636695 (not found) - using NC reference
+      seg8: "CY045251"       # Was EU636696 (not found) - using first available
