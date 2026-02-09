@@ -1,9 +1,7 @@
+source("global.R")
+
 ui<- function(id) {
-  # Robustly load global.R if variable 'full_metadata' is missing (indicates global.R wasn't sourced)
-  if(!exists("full_metadata")) {
-    source("global.R")
-    sapply(list.files("R", full.names = TRUE), source)
-  }
+  
   
   ns <- NS(id) # create namespace function
   
@@ -283,10 +281,7 @@ server <- function(id) {
     
     initial_metadata <- data.frame(status = "loaded",
                                     filename = "test.csv",
-                                    data = 
-                                     full_metadata %>% 
-                                     select(-primary_accession, -segment) %>% # remove primary_accession from display
-                                     format_csv, # metadata as CSV string
+                                    data = initial_metadata_csv, # metadata as CSV string
                                     filetype = "meta_csv",
                                     rows = "") # unique key to rerender component when metadata changes - empty for initial render
     
@@ -308,8 +303,37 @@ server <- function(id) {
       
       cluster_glue_segment
 
+      # Default reference accessions for A/New_York/392/2004
+      default_refs <- c(
+        "1" = "NC_007373", # PB2
+        "2" = "NC_007372", # PB1
+        "3" = "NC_007371", # PA
+        "4" = "NC_007366", # HA
+        "5" = "NC_007369", # NP
+        "6" = "NC_007368", # NA
+        "7" = "NC_007367", # M
+        "8" = "NC_007370"  # NS
+      )
+      
+      segment_num <- input$tree %>% str_extract("\\d+")
+      target_ref <- default_refs[segment_num]
+      
+      # Use target reference if it exists in options, otherwise add it and select it
+      if (!is.na(target_ref)) {
+        if (!target_ref %in% cluster_glue_segment) {
+             # Add to the beginning of the list with correct label
+             # We verified all segments for this strain are H3N2
+             new_ref <- c("A/New_York/392/2004 (H3N2)" = target_ref)
+             cluster_glue_segment <- c(new_ref, cluster_glue_segment)
+        }
+        selected_ref <- target_ref
+      } else {
+        selected_ref <- cluster_glue_segment[1]
+      }
+
       updateSelectInput(session = session, inputId = "sequence_id",
-                        choices = cluster_glue_segment)
+                        choices = cluster_glue_segment,
+                        selected = selected_ref)
     })
     
     # Display all adaptation mutations for selected segment
@@ -317,25 +341,7 @@ server <- function(id) {
       req(input$view_query == "view") # require view_query input to be view
       
       adaptationValues$numbering <- "H3" # reset numbering
-      # TODO store in a list of dataframes for each segment
-      if(input$protein == "seg1") {
-        adaptation_mutations <- adaptation_mutations_seg1
-      } else if(input$protein == "seg2") {
-        adaptation_mutations <- adaptation_mutations_seg2
-      } else if(input$protein == "seg3") {
-        adaptation_mutations <- adaptation_mutations_seg3
-      } else if(input$protein == "seg4") {
-        adaptation_mutations <- adaptation_mutations_seg4
-        # adaptationValues$numbering <- "H3"
-      } else if(input$protein == "seg5") {
-        adaptation_mutations <- adaptation_mutations_seg5
-      } else if(input$protein == "seg6") {
-        adaptation_mutations <- adaptation_mutations_seg6
-      } else if(input$protein == "seg7") {
-        adaptation_mutations <- adaptation_mutations_seg7
-      } else if(input$protein == "seg8") {
-        adaptation_mutations <- adaptation_mutations_seg8
-      }
+      adaptation_mutations <- adaptation_mutations_all[[input$protein]]
 
       adaptation_mutations %<>%
       select(-c(new_amino_acid,
@@ -634,15 +640,8 @@ server <- function(id) {
                        type = "warning")
       
       # adaptationValues$numbering <- "H3"
-      # TODO store in a list of dataframes for each segment
-      if(protein == "seg1") {
-        adaptation_mutations <- adaptation_mutations_seg1
-      } else if(protein == "seg2") {
-        adaptation_mutations <- adaptation_mutations_seg2
-      } else if(protein == "seg3") {
-        adaptation_mutations <- adaptation_mutations_seg3
-      } else if(protein == "seg4") {
-        adaptation_mutations <- adaptation_mutations_seg4
+      adaptation_mutations <- adaptation_mutations_all[[protein]]
+      if(protein == "seg4") {
         if(sseqid == "YP_308669.1"){ # if H5
           adaptation_mutations %<>% 
             filter(position_h5 > 0) %>%  # filter out negative positions
@@ -656,14 +655,6 @@ server <- function(id) {
                    -mutation_h5_numbering) # remove H5 columns
           adaptationValues$numbering <- "H3" # store numbering type
         }
-      } else if(protein == "seg5") {
-        adaptation_mutations <- adaptation_mutations_seg5
-      } else if(protein == "seg6") {
-        adaptation_mutations <- adaptation_mutations_seg6
-      } else if(protein == "seg7") {
-        adaptation_mutations <- adaptation_mutations_seg7
-      } else if(protein == "seg8") {
-        adaptation_mutations <- adaptation_mutations_seg8
       }
       
       ## Check if mismatches are known adaptation mutations
@@ -770,13 +761,12 @@ server <- function(id) {
       filter(!is.na(host_group)) %>% # remove sequences with missing host group
       filter(!host_group %in% c("Unknown", "Environment")) %>% # remove Unknown or Environment
       select(primary_accession, amino_acid, host_group) %>%
+      mutate(amino_acid = factor(amino_acid, levels = get_aa_levels())) %>%
       dplyr::count(amino_acid, host_group)
     
     aa_count
-  }) # TODO cache results
-  # %>%
-  #   bindCache(input$protein, input$query_adaptation, input$adaptationTable_rows_selected) %>% # cache result for unique inputs
-  #   bindEvent(input$adaptationTable_rows_selected) # re-run when user selects a new adaptation mutation in table
+  }) %>%
+    bindCache(adaptationValues$segment, adaptationValues$mutations$Position[input$adaptationTable_rows_selected], adaptationValues$numbering)
   
   
   ### Rendering ### 
@@ -864,6 +854,7 @@ server <- function(id) {
              x = "Amino Acid",
              y = "Frequency",
              fill = "Amino Acid") +
+        scale_fill_manual(values = AA_PALETTE, na.value = "grey50") +
         scale_y_continuous(labels = scales::percent) +
         theme_minimal(base_family='Open Sans') +
         theme(axis.text=element_text(size=rel(1.25), 

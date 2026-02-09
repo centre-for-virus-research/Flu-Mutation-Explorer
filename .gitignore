@@ -9,3 +9,4 @@ BLAST_segment_recognizer/ref_set*
 *.log
 .Rhistory
 .RData
+node_modules/

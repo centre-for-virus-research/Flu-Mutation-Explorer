@@ -72,65 +72,55 @@ discarded <<- discarded_data
 
 transposed <<- read_rds(conf$paths$data$transposed) # amino acid sequence data with gapless positions
 
-# TODO pre-process adaptation mutations data
-adaptation_mutations_seg1 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg1) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  dplyr::select(-segment, -further_notes, -experimentally_verified) %>% 
-  dplyr::rename(doi = x, new_amino_acid = mutant) # rename column for consistency
+# Pre-process adaptation mutations data into a list
+adaptation_mutations_all <<- list(
+  seg1 = read_csv(conf$paths$adaptation_mutations$seg1, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    dplyr::select(-segment, -further_notes, -experimentally_verified) %>% 
+    dplyr::rename(doi = x, new_amino_acid = mutant),
+  
+  seg2 = read_csv(conf$paths$adaptation_mutations$seg2, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    dplyr::select(-segment, -further_notes, -experimentally_verified, -starts_with("x")) %>% 
+    dplyr::rename(new_amino_acid = mutant),
+  
+  seg3 = read_csv(conf$paths$adaptation_mutations$seg3, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
+    dplyr::rename(new_amino_acid = mutant),
+  
+  seg4 = read_csv(conf$paths$adaptation_mutations$seg4, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    mutate(position_h5 = as.integer(str_extract(mutation_h5_numbering, "-?\\d+")), .after = position) %>% 
+    dplyr::select(-segment, -experimentally_verified) %>% 
+    dplyr::rename(new_amino_acid = mutation, mutation = mutation_h3_numbering),
+    
+  seg5 = read_csv(conf$paths$adaptation_mutations$seg5, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
+    dplyr::rename(new_amino_acid = mutant),
+    
+  seg6 = read_csv(conf$paths$adaptation_mutations$seg6, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    dplyr::select(-segment, -x, -experimentally_verified) %>% 
+    dplyr::rename(new_amino_acid = mutation_1),
+    
+  seg7 = read_csv(conf$paths$adaptation_mutations$seg7, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
+    dplyr::rename(new_amino_acid = mutant),
+    
+  seg8 = read_csv(conf$paths$adaptation_mutations$seg8, show_col_types = FALSE) %>% 
+    select(-1) %>% clean_names() %>% 
+    dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
+    dplyr::rename(new_amino_acid = mutant)
+)
 
-adaptation_mutations_seg2 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg2) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  dplyr::select(-segment, -further_notes, -experimentally_verified, -starts_with("x")) %>% 
-  dplyr::rename(new_amino_acid = mutant) # rename column for consistency
-
-adaptation_mutations_seg3 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg3) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
-  dplyr::rename(new_amino_acid = mutant) # rename column for consistency
-
-adaptation_mutations_seg4 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg4) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  mutate(position_h5 = str_extract(mutation_h5_numbering, "-?\\d+"), .after = position) %>% # extract H5 position including negatives
-  mutate(position_h5 = as.integer(position_h5)) %>% # convert position_h5 to integer
-  dplyr::select(-segment, 
-                -experimentally_verified) %>% 
-  dplyr::rename(new_amino_acid = mutation, mutation = mutation_h3_numbering) # rename column for consistency
-
-adaptation_mutations_seg5 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg5) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
-  dplyr::rename(new_amino_acid = mutant) # rename column for consistency
-
-adaptation_mutations_seg6 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg6) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  dplyr::select(-segment, -x, -experimentally_verified) %>% 
-  dplyr::rename(new_amino_acid = mutation_1) # rename column for consistency
-
-adaptation_mutations_seg7 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg7) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
-  dplyr::rename(new_amino_acid = mutant) # rename column for consistency
-
-adaptation_mutations_seg8 <<- 
-  read_csv(conf$paths$adaptation_mutations$seg8) %>%  # known adaptation mutations curated by Daniel
-  select(-1) %>% # remove row numbers
-  clean_names() %>% 
-  dplyr::select(-segment, -extra_notes, -experimentally_verified) %>% 
-  dplyr::rename(new_amino_acid = mutant) # rename column for consistency
+# Pre-calculate initial metadata CSV string for faster session startup
+initial_metadata_csv <<- 
+  full_metadata %>% 
+  select(-primary_accession, -segment) %>% 
+  format_csv()
 
 # read reference sequences for each segment and subtype
 # pre-sorted by segment, H and N numbers 
@@ -171,8 +161,10 @@ status_segments <<-
   )) %>% 
   rename_with(~ str_to_title(.), everything()) # rename columns to title case
 
-# Source and run validation checks
-source("R/validate_data.R")
+# Source all files in R directory
+sapply(list.files("R", full.names = TRUE), source)
+
+# Run validation checks
 tryCatch({
   validate_data()
 }, error = function(e) {

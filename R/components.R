@@ -1,4 +1,4 @@
-CustomComponents <- tags$script(HTML("(function() {
+CustomComponents <- tags$script(HTML(sprintf("(function() {
   const React = jsmodule['react'];
   const ReactDOMServer = jsmodule['react-dom'];
   const Shiny = jsmodule['@/shiny'];
@@ -193,41 +193,8 @@ Colour palette for host order
   'Strigiformes':[224, 108, 188], 
   'Tinamiformes':[183, 132, 188],
   
-  // Amino acid colour palette - Clustal X colours https://www.jalview.org/help/html/colourSchemes/clustal.html
-  // Hydrophobic BLUE
-  'A':[128, 160, 240], 
-  'C':[128, 160, 240], 
-  'I':[128, 160, 240], 
-  'L':[128, 160, 240],
-  'M':[128, 160, 240],
-  'F':[128, 160, 240],
-  'W':[128, 160, 240],
-  'V':[128, 160, 240],
-  'C':[128, 160, 240],
-  
-  // Positive charge RED
-  'K':[240, 21, 5],
-  'R':[240, 21, 5],
-
-  // Negative charge MAGENTA
-  'E':[192, 72, 192],
-  'D':[192, 72, 192],
-  
-  // Polar GREEN
-  'N':[21, 192, 21],
-  'Q':[21, 192, 21],
-  'S':[21, 192, 21],
-  'T':[21, 192, 21],
-  
-  'C':[240, 128, 128], // Cysteines PINK
-  'G':[240, 144, 72], // Glycines ORANGE
-  'P':[192, 192, 0], // Prolines YELLOW
-  
-  // Aromatic CYAN
-  'H':[21, 164, 164], 
-  'Y':[21, 164, 164],
-  
-  '-':[255, 255, 255] // any/gap WHITE
+  // Amino acid colour palette - standardized chemically-indexed colors
+  ...JSON.parse('%s')
   }};
   
   // pass key to rerender child component when tree file or selected rows updated
@@ -238,7 +205,7 @@ Colour palette for host order
    })
   };
   
-})()")) # end script
+})()", get_aa_palette_js()))) # end script
 
 TaxoniumComponent <- function(...) {
   shiny.react::reactElement(
