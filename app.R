@@ -318,14 +318,9 @@ server <- function(id) {
       segment_num <- input$tree %>% str_extract("\\d+")
       target_ref <- default_refs[segment_num]
       
-      # Use target reference if it exists in options, otherwise add it and select it
-      if (!is.na(target_ref)) {
-        if (!target_ref %in% cluster_glue_segment) {
-             # Add to the beginning of the list with correct label
-             # We verified all segments for this strain are H3N2
-             new_ref <- c("A/New_York/392/2004 (H3N2)" = target_ref)
-             cluster_glue_segment <- c(new_ref, cluster_glue_segment)
-        }
+      # Only use target reference if it already exists in cluster_glue_segment
+      # Otherwise use the first available option
+      if (!is.na(target_ref) && target_ref %in% cluster_glue_segment) {
         selected_ref <- target_ref
       } else {
         selected_ref <- cluster_glue_segment[1]
@@ -335,6 +330,7 @@ server <- function(id) {
                         choices = cluster_glue_segment,
                         selected = selected_ref)
     })
+
     
     # Display all adaptation mutations for selected segment
     observe({
