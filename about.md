@@ -2,7 +2,7 @@
 
 ## Overview
 
-The in**FLU**enza Virus **G**enome sequence **D**ata**B**ase (*Flu-GDB*) Mutation Explorer is a web resource which allows users to search for and visualise sequence variations in the genomes of influenza A viruses (IAVs).
+The in**FLU**enza Virus Mutation Explorer is a web resource which allows users to search for and visualise sequence variations in the genomes of influenza A viruses (IAVs).
 
 Variation can be assessed using two tools:
 
@@ -34,7 +34,7 @@ Alignments for each genome segment were then obtained as follows:
 
 Several curation steps were applied, including removing non-IAV genomic sequences, eliminating sequences with non-significant BLAST hits, removing sequences shorter than a pre-established length threshold for each segment, and removing sequences that could not be aligned to a reference sequence with Nextalign. Nucleotide alignments were then trimmed to the coding sequences (CDS) for the IAV proteins, which were translated *in silico* to give protein sequence alignments.
 
-For visualization, the IAV nucleotide sequence database was clustered, and phylogenetic trees were constructed. Clustering was performed on the nucleotide sequences using MMseqs2 with a 95% sequence identity threshold ). Representative sequences for each cluster and segment were aligned using MAFFT with default parameters. Maximum likelihood trees were inferred with IQ-TREE using the best-fit model determined by the Bayesian Information Criterion (BIC), and were midpoint-rooted for visualization purposes.
+For visualization, the IAV nucleotide sequence database was clustered, and phylogenetic trees were constructed. Clustering was performed on the nucleotide sequences using MMseqs2 with a 95% sequence identity threshold. Representative sequences for each cluster and segment were aligned using MAFFT with default parameters. Maximum likelihood trees were inferred with IQ-TREE using the best-fit model determined by the Bayesian Information Criterion (BIC), and were midpoint-rooted for visualization purposes.
 
 ### Adaptation mutations
 
@@ -46,8 +46,8 @@ The virus image on the Home tab is attributed to Naina Nair and Ed Hutchinson,
 
 ## GitHub
 
-Source code is available on <a href="https://github.com/wrightdw/flu-gdb" target="_blank" title="Flu-GDB GitHub repository">GitHub</a>.
-Bug reports and feature requests may be submitted via the <a href="https://github.com/wrightdw/flu-gdb/issues" target="_blank" title="Flu-GDB issue tracker">issue tracker</a>.
+Source code is available on <a href="https://github.com/centre-for-virus-research/Flu-Mutation-Explorer" target="_blank" title="Flu-Mutation Explorer GitHub repository">GitHub</a>.
+Bug reports and feature requests may be submitted via the <a href="https://github.com/centre-for-virus-research/Flu-Mutation-Explorer/issues" target="_blank" title="Flu-Mutation Explorer issue tracker">issue tracker</a>.
 
 ## Software
 

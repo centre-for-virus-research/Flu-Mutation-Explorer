@@ -1,6 +1,6 @@
 ## Overview
 
-The Flu-GDB project provides influenza phylogenies and associated metadata, plus a database of mammalian adaptation amino acid replacements. Phylogenies are created by clustering Genbank sequences for the 8 major genomic segments into representatives, which are then used to construct phylogenetic trees. The *Home* tab provides a summary table of the numbers of original sequences and clusters for each segment.
+The Flu-Mutation Explorer project provides influenza phylogenies and associated metadata, plus a database of mammalian adaptation amino acid replacements. Phylogenies are created by clustering Genbank sequences for the 8 genomic segments into representatives, which are then used to construct phylogenetic trees. The *Home* tab provides a summary table of the numbers of original sequences and clusters for each segment.
 
 ## Tree
 

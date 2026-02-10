@@ -31,7 +31,7 @@ ui<- function(id) {
     ),
     
     page_navbar(
-      title = "Flu-GDB Mutation Explorer",
+      title = "Flu-Mutation Explorer",
       addGFontHtmlDependency(family = c("Open Sans")),
       footer = tags$footer(
         fluidRow(
@@ -49,8 +49,8 @@ ui<- function(id) {
             # insert conditionalPanel  image
             conditionalPanel(condition = "input.tabselected==0 || input.tabselected==3",
                              img(src = "Warhol Influenza.png", 
-                                 title = "Flu-GDB Mutation Explorer",
-                                 alt = "Flu-GDB Mutation Explorer pop art viruses logo",
+                                 title = "Flu-Mutation Explorer",
+                                 alt = "Flu-Mutation Explorer pop art viruses logo",
                                  class = "img-fluid mx-auto d-block logo-image"
                              )),
             
@@ -200,7 +200,7 @@ ui<- function(id) {
                                          class = "bg-dark",
                                          "Support"
                                        ),
-                                       HTML("<a href='mailto:cvr-webresource-support@lists.cent.gla.ac.uk?Subject=Flu-GDB%20Support' target='_top'>Contact us</a>")
+                                       HTML("<a href='mailto:cvr-webresource-support@lists.cent.gla.ac.uk?Subject=Flu-Mutation-Explorer%20Support' target='_top'>Contact us</a>")
                                      ),
                                      
                                      card(
