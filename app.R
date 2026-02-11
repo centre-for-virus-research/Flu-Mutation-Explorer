@@ -242,7 +242,9 @@ See the [GNU GPL v3][gplv3] for details.
                             Maximum likelihood trees were obtained with *IQ-TREE* and midpoint rooted for visualisation.
                               
                               For *Position* search, amino acids are numbered based on the selected reference sequence.
-                              Amino acid positions for all segments, including HA, are based on full-length protein numbering."
+                              Amino acid positions for all segments, including HA, are based on full-length protein numbering.
+                              
+                              Sequences with a missing amino acid at the queried position are shown as white nodes in the tree."
                             ),
                             hr(),
                             

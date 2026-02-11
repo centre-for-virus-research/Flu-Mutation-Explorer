@@ -98,7 +98,9 @@ Colour palette for host order
 	28.	Category 28: [183, 132, 188],
 	
 	*/
-  // colours ordered by frequency for each metadata column
+  // Amino acid colour palette - standardized chemically-indexed colors
+  const aaPalette = JSON.parse('%s');
+  
   const config = {'colorMapping':{
   // H subtype colour palette
   'H1':[1, 115, 178],
@@ -124,7 +126,7 @@ Colour palette for host order
   'H15':[0, 128, 0],
   
   'H17':[0, 0, 128],
-  '':[128, 128, 0],
+  '':[255, 255, 255],
   'Hx':[0, 128, 128],
   'H19':[128, 0, 128],
   'H1n2':[255, 128, 0],
@@ -193,8 +195,7 @@ Colour palette for host order
   'Strigiformes':[224, 108, 188], 
   'Tinamiformes':[183, 132, 188],
   
-  // Amino acid colour palette - standardized chemically-indexed colors
-  ...JSON.parse('%s')
+  ...aaPalette
   }};
   
   // pass key to rerender child component when tree file or selected rows updated
