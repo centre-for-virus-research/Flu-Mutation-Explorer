@@ -1,26 +1,26 @@
-# Flu-GDB Mutation Explorer
+# **Flu Mutation Explorer**
 
-## Overview
+## **Overview**
 
 The in**FLU**enza Virus Mutation Explorer is a web resource which allows users to search for and visualise sequence variations in the genomes of influenza A viruses (IAVs).
 
 Variation can be assessed using two tools:
 
-### Tree
+### **Tree**
 
 The Tree tool displays an interactive phylogenetic tree, based on nucleotide sequences, for each of the eight segments of the IAV genome. The tree can be coloured to illustrate features including subtype, host taxonomy and amino acid usage at specified positions, and publication-quality images can be downloaded.
 
-### Adaptation Mutations
+### **Adaptation Mutations**
 
-The Adaptation Mutations tool takes a user-supplied IAV protein sequence and identifies positions previously associated with changes in host species. For these positions, the amino acid usage in different host taxa is illustrated, in a graph that can be downloaded as a publication-quality image, and a table provides more detail on sites of adaptation mutations in the sequence, including links to supporting literature.
+The Adaptation Mutations tool takes a segment, or a user-supplied IAV protein sequence, and identifies positions previously associated with changes in host species. For these positions, the amino acid usage in different host taxa is illustrated, in a graph that can be downloaded as a publication-quality image, and a table provides more detail on sites of adaptation mutations in the sequence, including links to supporting literature.
 
-## Methods Summary
+## **Methods Summary**
 
-### Tree visualisation
+### **Tree visualisation**
 
-The IAV phylogenetic trees are visualized using Taxonium, a tool for exploring large phylogenetic trees.
+The IAV phylogenetic trees are visualized using <a href="https://taxonium.org/">Taxonium</a>, a tool for exploring large phylogenetic trees.
 
-### Influenza virus Genome sequence Database
+### **Influenza virus Genome sequence Database**
 
 To assemble the sequence database, influenza A virus nucleotide sequences were retrieved from the NCBI Entrez databases using the influenza A virus taxonomic ID, using an in-house Python tool to access the E-utilities API. A BLAST search against a curated IAV reference set was performed to identify the closest reference for each sequence and validate the genome segment number.
 
@@ -36,20 +36,20 @@ Several curation steps were applied, including removing non-IAV genomic sequence
 
 For visualization, the IAV nucleotide sequence database was clustered, and phylogenetic trees were constructed. Clustering was performed on the nucleotide sequences using MMseqs2 with a 95% sequence identity threshold. Representative sequences for each cluster and segment were aligned using MAFFT with default parameters. Maximum likelihood trees were inferred with IQ-TREE using the best-fit model determined by the Bayesian Information Criterion (BIC), and were midpoint-rooted for visualization purposes.
 
-### Adaptation mutations
+### **Adaptation mutations**
 
 The database of mammalian adaptations is curated and maintained by Daniel Goldhill (Royal Veterinary College).
 
-## Media
+## **Media**
 
-The virus image on the Home tab is attributed to Naina Nair and Ed Hutchinson, MRC-University of Glasgow Centre for Virus Research (CC-BY 2022).
+The virus image on the Home tab is from Naina Nair and Ed Hutchinson, MRC-University of Glasgow Centre for Virus Research (CC-BY 2022).
 
-## GitHub
+## **GitHub**
 
 Source code is available on <a href="https://github.com/centre-for-virus-research/Flu-Mutation-Explorer" target="_blank" title="Flu-Mutation Explorer GitHub repository">GitHub</a>.
 Bug reports and feature requests may be submitted via the <a href="https://github.com/centre-for-virus-research/Flu-Mutation-Explorer/issues" target="_blank" title="Flu-Mutation Explorer issue tracker">issue tracker</a>.
 
-## Software
+## **Software**
 
 Taxonium Sanderson, T. (2022). 
 Taxonium, a web-based tool for exploring large phylogenetic trees. 
@@ -84,3 +84,9 @@ DOI: <a href="https://doi.org/10.21105/joss.03773" target="_blank">10.21105/joss
 Chang W, Cheng J, Allaire J, Sievert C, Schloerke B, Xie Y, Allen J, McPherson J, Dipert A, Borges B (2025). 
 *shiny: Web Application Framework for R*. R package version 1.11.0, 
 <a href="https://shiny.posit.co/" target="_blank">Posit</a>.
+<br>
+
+## **Funding**
+
+We acknowledge funding from the Medical Research Council (MRC) and Department for Environment, Food and Rural Affairs (Defra, UK) as FluTrailMap-One Health (MR/Y03368X/1); and MRC funding to the MRC-University of Glasgow Centre for Virus Research: MC_UU_00034/5, MC_UU_00034/6, MC_UU_00034/1.
+

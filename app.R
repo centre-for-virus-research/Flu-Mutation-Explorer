@@ -11,8 +11,8 @@ ui<- function(id) {
                        "4(HA)" = "seg4",
                        "5(NP)" = "seg5",
                        "6(NA)" = "seg6",
-                       "7(M)" = "seg7",
-                       "8(NS)" = "seg8"
+                       "7(M1)" = "seg7",
+                       "8(NS1)" = "seg8"
   )
   
   page_fluid(
@@ -237,12 +237,12 @@ See the [GNU GPL v3][gplv3] for details.
                             
                             markdown(
                               "Maximum likelihood phylogeny of the clustered IAV dataset. 
-                            The curated database for segment N was clustered using *MMSeq2* on a 0.95 identity threshold. 
+                            The curated database for this segment was clustered using *MMSeq2* on a 0.95 identity threshold. 
                             Representative sequences were aligned using *MAFFT*. 
                             Maximum likelihood trees were obtained with *IQ-TREE* and midpoint rooted for visualisation.
                               
                               For *Position* search, amino acids are numbered based on the selected reference sequence.
-                              Amino acid positions for all segments, including HA, are based on full-length protein numbering.
+                              Amino acid positions for HA mutations are based on mature peptide numbering. Amino acid positions for mutations in all other segments are based on full-length protein numbering.
                               
                               Sequences with a missing amino acid at the queried position are shown as white nodes in the tree."
                             ),
@@ -257,6 +257,7 @@ See the [GNU GPL v3][gplv3] for details.
                                        "
                               Amino acid positions for HA mutations are based on mature peptide numbering.
                               Amino acid positions for mutations in all other segments are based on full-length protein numbering.
+                              **These mammalian adaptation mutations are largely derived from _in vitro_ studies performed in specific viral strain backgrounds. Consequently, their adaptive significance may be context-dependent and may not apply to the submitted query sequence.**
                                        "
                                      )
                               ),
