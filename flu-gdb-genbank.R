@@ -33,13 +33,12 @@ library(phytools)
 
 ## Paths ----------------------------------------------------------------------
 
-ROOT_DIR <- "/home/laura/IAV_DB/Flu-Mutation-Explorer/" # set path
+ROOT_DIR <- "/home/laura/IAV_DB/Flu-Mutation-Explorer/"
 
 DATA_DIR            <- file.path(ROOT_DIR, "flu_gdb_app_data") 
 
-CURRENT_VERSION_DIR <- file.path(ROOT_DIR, "current_version") # set  path
-MATRIX_FILE         <- file.path(CURRENT_VERSION_DIR, "IAV_DB_matrix.tsv")
-ALIGNMENTS_DIR      <- file.path(CURRENT_VERSION_DIR, "alignments")
+CURRENT_VERSION_DIR <- file.path(ROOT_DIR, "current_version")
+MATRIX_FILE         <- file.path(CURRENT_VERSION_DIR, "IAV_DB_matrix_filtered.tsv")
 CLUSTERS_DIR        <- file.path(CURRENT_VERSION_DIR, "clusters_trees")
 PROTEINS_AA_DIR     <- file.path(CLUSTERS_DIR, "proteins_AA")
 
@@ -57,9 +56,6 @@ message("OUTPUT_DIR: ", OUTPUT_DIR)
 
 if (!dir.exists(CLUSTERS_DIR)) {
   stop("CLUSTERS_DIR does not exist: ", CLUSTERS_DIR)
-}
-if (!dir.exists(ALIGNMENTS_DIR)) {
-  stop("ALIGNMENTS_DIR does not exist: ", ALIGNMENTS_DIR)
 }
 if (!file.exists(MATRIX_FILE)) {
   stop("MATRIX_FILE does not exist: ", MATRIX_FILE)
@@ -118,8 +114,6 @@ for (i in seq_along(tree_files)) {
 }
 
 
-
-
 fa_files <- list.files(
   path       = PROTEINS_AA_DIR,
   pattern    = "^sgt_[1-8]_AA_cluster_rep\\.fasta$",
@@ -155,44 +149,25 @@ discarded <- sequences %>%
   })
 
 
-################################################################################
-# LEGACY WARNING
-#
-# This step relies on a previously generated object ("discarded copy.rds").
-#
-# It is not clear what specific filtering it performs, but it changes the final
-# objects used by the app (discarded / transposed / downstream metadata).
-#
-# We keep this behaviour unchanged to avoid altering the downstream outputs. 
-#
-################################################################################
+transposed <- purrr::map(discarded, function(segment_data) {
+  all_positions <- sort(unique(as.integer(unlist(lapply(segment_data, names)))))
+  all_positions_chr <- as.character(all_positions)
 
-# read in gapless sequences from previous dataset that did not include reference sequences
-discarded_copy <- read_rds(file.path(DATA_DIR,"discarded copy.rds"))
-
-# find sequences to discard from the current dataset that are not in the previous dataset
-message("len(discarded)=", length(discarded))
-message("len(discarded_copy)=", length(discarded_copy))
-
-to_discard <- 
-  purrr::map2(discarded, discarded_copy, function(x, y) { # map each segment
-    setdiff(names(x), names(y)) # 
+  result <- lapply(all_positions_chr, function(pos_str) {
+    aa_at_pos <- character(0)
+    for (seq_name in names(segment_data)) {
+      seq_data <- segment_data[[seq_name]]
+      if (pos_str %in% names(seq_data)) {
+        aa_at_pos[seq_name] <- unname(seq_data[[pos_str]])
+      }
+    }
+    aa_at_pos
   })
 
-# remove sequences that are in to_discard from sequences before transposing
-message("len(sequences)=", length(sequences))
-message("len(to_discard)=", length(to_discard))
+  names(result) <- all_positions_chr
+  result
+})
 
-
-sequences_refs_removed <- 
-  purrr::map2(sequences, to_discard, function(x, y) { # map each segment
-    x %>% purrr::discard(names(.) %in% y) # remove sequences in to_discard
-  })
-
-transposed <- purrr::map(sequences_refs_removed, list_transpose)
-
-# Rename list elements to segment IDs
-transposed <- rename_sequences(transposed)
 
 # Save required outputs
 readr::write_rds(discarded,  file.path(OUTPUT_DIR, "discarded.rds"))
@@ -225,18 +200,16 @@ genbank_filtered <- genbank_metadata %>%
   dplyr::select(
     primary_accession,
     accession_version,
-    #definition,
     h_subtype,
     n_subtype,
     dplyr::starts_with("host"),
-    #isolate,
     parsed_strain,
     segment_validated
   )
 
 
 ## generate taxonomic_names.csv for version updates only ----------------------
-#
+# TO-DO: generate separated script
 # (run using interactive mode for ncbi taxonomy assignment)
 
 # hosts <- genbank_metadata %>%
@@ -275,7 +248,7 @@ genbank_filtered <- genbank_metadata %>%
 #   )
 # 
 # # save 
-# taxonomic_names %>% write_csv(DATA_DIR,"taxonomic_names.csv")
+# taxonomic_names %>% write_csv(file.path(DATA_DIR, "taxonomic_names.csv"))
 
 
 # Load precomputed host taxonomy
@@ -316,7 +289,6 @@ cluster_files <- list.files(
 )
 
 
-
 # df renamed: clusters -> cluster_rep
 cluster_rep <-
   purrr::map(cluster_files, function(x){
@@ -335,15 +307,12 @@ cluster_rep <-
 
 
 # Load list of references sequences (for numbering scheme)
-# dataframe renamed: glue_cluster > ref_set
 
 ref_set <- readr::read_delim(file.path(DATA_DIR,"reference_set_list.tsv"),
   show_col_types = FALSE) 
 
 
 # Filtering join of representative sequences to reference cluster representatives + metadata
-# dataframe renamed: cluster_glue -> ref_set_cluster_rep
-
 ref_set_cluster_rep <- ref_set %>%
   left_join(cluster_rep,
     by = c("accession", "segment")) %>%
@@ -378,38 +347,56 @@ ref_set_cluster_rep <- ref_set_cluster_rep %>%
 readr::write_rds(ref_set_cluster_rep, file.path(OUTPUT_DIR, "cluster_glue.rds"))
 
 
-# STEP 5 – Build cluster_reference for display in the app ----------------------------------------------------------------------
+# STEP 5 – Build cluster_reference for display in the app (Subtype dropdown mennu) -------------------------------
 ##   - Produce:
 ##       - cluster_reference.rds
 
-# Read reference strains metadata
-reference_strains <- readr::read_delim(file.path(DATA_DIR,"strains_info.tsv"),
-  show_col_types = FALSE
-) %>%
-  janitor::clean_names()
+# Read reference strains list
+reference_strains <- readr::read_delim(
+  file.path(DATA_DIR, "strains_info.tsv"),
+  show_col_types = FALSE,
+  col_select = c(primary_accession, segment_validated, parsed_strain)
+) 
 
-# Filter cluster representatives to those in the reference list
-cluster_reference <- cluster_rep %>%
-  semi_join(
-    reference_strains,
-    by = c("accession" = "primary_accession",
-           "segment"  = "segment_validated")
-  ) %>%
-  distinct() %>%
-  # Add metadata
-  inner_join(
-    genbank_filtered %>% select(-segment),
+# Define reference strains to force-include
+reference <- c(
+  "A/New_York/392/2004"
+  # "A/Puerto_Rico/8/1934", "A/goose/Guangdong/1/1996"
+)
+
+# Filter the cluster representatives for strains on the reference list
+cluster_reference <- dplyr::bind_rows(
+  cluster_rep %>%
+    dplyr::semi_join(
+      reference_strains,
+      by = c("accession" = "primary_accession",
+             "segment"  = "segment_validated")
+    ),
+  reference_strains %>%
+    dplyr::filter(parsed_strain %in% reference) %>%
+    dplyr::transmute(
+      segment        = segment_validated,
+      representative = primary_accession,
+      accession      = primary_accession
+    )
+) %>%
+  dplyr::distinct(segment, representative, .keep_all = TRUE)
+
+# Add metadata
+cluster_reference <- cluster_reference %>%
+  dplyr::inner_join(
+    genbank_filtered %>% dplyr::select(-segment),
     by = c("representative" = "primary_accession")
   ) %>%
-  # Derive sorting / display columns
-  mutate(
-    h_num         = as.integer(stringr::str_extract(h_subtype, "\\d+")),
-    n_num         = as.integer(stringr::str_extract(n_subtype, "\\d+")),
-    strain        = parsed_strain,
-    strain_display = stringr::str_c(strain, " (", h_subtype, n_subtype, ")")
+  dplyr::mutate(
+    h_num          = as.integer(stringr::str_extract(h_subtype, "\\d+")),
+    n_num          = as.integer(stringr::str_extract(n_subtype, "\\d+")),
+    strain         = parsed_strain,
+    strain_display = dplyr::if_else(is.na(h_subtype) | is.na(n_subtype),
+    strain, stringr::str_c(strain, " (", h_subtype, n_subtype, ")"))
   ) %>%
-  arrange(segment, h_num, n_num) %>%
-  select(
+  dplyr::arrange(segment, h_num, n_num) %>%
+  dplyr::select(
     segment,
     strain,
     strain_display,
@@ -422,6 +409,26 @@ cluster_reference <- cluster_rep %>%
 
 readr::write_rds(cluster_reference, file.path(OUTPUT_DIR, "cluster_reference.rds"))
 
+
+outputs <- c(
+  "discarded.rds",
+  "transposed.rds",
+  "metadata_clusters_segments.rds",
+  "cluster_glue.rds",
+  "cluster_reference.rds"
+)
+
+for (f in outputs) {
+  p <- file.path(OUTPUT_DIR, f)
+  if (file.exists(p)) {
+    sz <- file.info(p)$size / 1024^2
+    message(sprintf("[OUTPUT] %s | %.2f MB", f, sz))
+  } else {
+    message(sprintf("[OUTPUT] MISSING: %s", f))
+  }
+}
+
+message(sprintf("[COMPLETE] %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")))
 
 
 
