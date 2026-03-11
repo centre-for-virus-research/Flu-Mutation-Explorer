@@ -207,50 +207,6 @@ genbank_filtered <- genbank_metadata %>%
     segment_validated
   )
 
-
-## generate taxonomic_names.csv for version updates only ----------------------
-# TO-DO: generate separated script
-# (run using interactive mode for ncbi taxonomy assignment)
-
-# hosts <- genbank_metadata %>%
-#   distinct(host_validated) %>% 
-#   arrange(host_validated)
-# 
-# taxonomic_names <- tax_name(sci = hosts$host_validated, get = c("class", "order"), db = "ncbi")
-# # correct mislabel
-# taxonomic_names <- taxonomic_names %>%
-#   mutate(
-#     order = case_when(
-#       query == "yellow-legged gull"        ~ "Charadriiformes",
-#       query == "common gull"               ~ "Charadriiformes",
-#       query == "peacock"                   ~ "Galliformes",
-#       query == "unidentified influenza virus" ~ NA_character_,
-#       TRUE                                 ~ order
-#     ),
-#     class = case_when(
-#       query %in% c("yellow-legged gull","common gull","peacock") ~ "Aves",
-#       query == "unidentified influenza virus"                    ~ NA_character_,
-#       TRUE                                                       ~ class
-#     )
-#   )
-#
-# # asign host_group
-# taxonomic_names <- taxonomic_names %>%
-#   mutate(
-#     host_group = case_when(
-#       query == "Homo sapiens" ~ "Human",
-#       order %in% c("Primates","Carnivora","Eulipotyphla","Chiroptera","Artiodactyla",
-#                    "Perissodactyla","Rodentia","Pilosa","Lagomorpha") ~ "Other Mammals",
-#       class == "Aves" ~ "Birds",
-#       query == "environmental samples" ~ "Environment",
-#       TRUE ~ "Unknown"
-#     )
-#   )
-# 
-# # save 
-# taxonomic_names %>% write_csv(file.path(DATA_DIR, "taxonomic_names.csv"))
-
-
 # Load precomputed host taxonomy
 taxonomic_names <- readr::read_csv(file.path(DATA_DIR,"taxonomic_names.csv"),
   show_col_types = FALSE)
