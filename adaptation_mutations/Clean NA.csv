@@ -1,0 +1,46 @@
+,Segment,Mutation,WT,Position,Mutation.1,Paper..s.,X,Experimentally.Verified,How.was.the.mutation.discovered,Which.virus.,Notes,DOI
+1,NA,A9G,A,9,G,Wu et al. Vet. Microbiol. 2009,NA,NA,NA,H9N2,,10.1016/j.vetmic.2009.03.010
+2,NA,I21N,I,21,N,Zhang et al. Virol. J. 2011,NA,NA,NA,H10N8,,10.1186/1743-422X-8-42
+3,NA,A27T,A,27,T,Liu et al. Arch. Virol. 2014,NA,NA,NA,H9N2,,10.1007/s00705-014-2062-y
+4,NA,T32I,T,32,I,Seyer et al. J. Infect. Dis. 2012,NA,NA,NA,pdmH1N1,,10.1093/infdis/jir716
+5,NA,A32T,A,32,T,Zhang et al. Virol. J. 2011,NA,NA,NA,H10N8,,10.1186/1743-422X-8-42
+6,NA,A56T,A,56,T,Yao et al. Arch. Virol. 2013,NA,NA,NA,H6N6,,10.1007/s00705-012-1496-3
+7,NA,Q88R,Q,88,R,Zhang et al. Infect. Genet. Evol. 2011,NA,NA,NA,H9N2,,10.1016/j.meegid.2011.07.025
+8,NA,I106V,I,106,V,Song et al. J. Virol. 2009,NA,NA,NA,H5N2,,10.1128/JVI.01373-09
+9,NA,A110V,A,110,V,Ping et al. PLoS One 2011,NA,NA,NA,H3N2,in 1/6,10.1371/journal.pone.0021740
+10,NA,P120S,P,120,S,Park et al. J. Microbiol. 2015,NA,NA,NA,H9N2,,10.1007/s12275-015-5329-4
+11,NA,V286A,V,286,A,Zhang et al. Virol. J. 2011,NA,NA,NA,H10N8,,10.1186/1743-422X-8-42
+12,NA,H316Y,H,316,Y,Song et al. J. Virol. 2009,NA,NA,NA,H5N2,,10.1128/JVI.01373-09
+13,NA,Q330R,Q,330,R,Zhang et al. Virol. J. 2011,NA,NA,NA,H10N8,,10.1186/1743-422X-8-42
+14,NA,∆331,,331,∆,Wu et al. Vet. Microbiol. 2009,NA,NA,NA,H9N2,,10.1016/j.vetmic.2009.03.010
+15,NA,N334S,N,334,S,Air et al. Virology 1985,NA,NA,NA,N2,,10.1016/0042-6822(85)90157-6
+16,NA,S350N,S,350,N,Yu et al. Virology 2015,NA,NA,NA,H7N1,found twice,10.1016/j.virol.2014.11.031
+17,NA,D356N,D,356,N,Zhang et al. Infect. Genet. Evol. 2011,NA,NA,NA,H9N2,,10.1016/j.meegid.2011.07.025
+18,NA,S367N,S,367,N,Du et al. PLoS Pathog. 2019; Uhlendorff et al. Arch. Virol. 2009; Air et al. J. Virol. 1990; ,NA,NA,NA,N2; N9; N8,disrupted second sialic acid binding site; Immune escape mutant - disruption of the second sialic acid binding site?,10.1371/journal.ppat.1007860; 10.1007/s00705-009-0393-x; 10.1128/jvi.64.12.5797-5803.1990; 
+19,NA,S367R,S,367,R,Air et al. J. Virol. 1990,NA,NA,NA,N9,Immune escape mutant - disruption of the second sialic acid binding site?,10.1128/jvi.64.12.5797-5803.1990
+20,NA,S367G,S,367,G,Air et al. J. Virol. 1990,NA,NA,NA,N9,Immune escape mutant - disruption of the second sialic acid binding site?,10.1128/jvi.64.12.5797-5803.1990
+21,NA,S367P,S,367,P,Xiong et al. Emerg. Microbes Infect. 2020,NA,NA,NA,N9,,10.1080/22221751.2019.1708214
+22,NA,I368R,I,368,R,Webster et al. J. Virol. 1987,NA,NA,NA,N2,,10.1128/jvi.61.9.2910-2916.1987
+23,NA,S372I,S,372,I,de et al. Euro Surveill. 2023,NA,NA,NA,H5N1,disrupted second sialic acid binding site,10.2807/1560-7917.ES.2023.28.7.2300085
+24,NA,N369H,N,369,H,Du et al. J. Virol. 2018,NA,NA,NA,N1,disrupted second sialic acid binding site,10.1128/JVI.01243-18
+25,NA,A369D,A,369,D,Webster et al. J. Virol. 1987,NA,NA,NA,N2,Immune escape mutant - disruption of the second sialic acid binding site?,10.1128/jvi.61.9.2910-2916.1987
+26,NA,S370L,S,370,L,Uhlendorff et al. Arch. Virol. 2009; Du et al. FEBS J. 2021,NA,NA,NA,H3N2; H7N7,disrupted second sialic acid binding site. Seen in dogs; disrupted second sialic acid binding site in horses,10.1007/s00705-009-0393-x; 10.1111/febs.15668
+27,NA,S371F,S,371,F,Yao et al. Arch. Virol. 2013,NA,NA,NA,H6N6,,10.1007/s00705-012-1496-3
+28,NA,S372N,S,372,N,Chen et al. Vet. Microbiol. 2015,NA,NA,NA,H7N7,,10.1016/j.vetmic.2015.02.016
+29,NA,S372Y,S,372,Y,Webster et al. J. Virol. 1987,NA,NA,NA,,Immune escape mutant - disruption of the second sialic acid binding site?,10.1128/jvi.61.9.2910-2916.1987
+30,NA,S372F,S,372,F,Air et al. J. Virol. 1990,NA,NA,NA,,,10.1128/jvi.64.12.5797-5803.1990
+31,NA,K385R,K,385,R,Zhang et al. Virol. J. 2011,NA,NA,NA,H10N8,,10.1186/1743-422X-8-42
+32,NA,I400M,I,400,M,de et al. Euro Surveill. 2023,NA,NA,NA,H5N1,disrupted second sialic acid binding site,10.2807/1560-7917.ES.2023.28.7.2300085
+33,NA,N400D,N,400,D,Uhlendorff et al. Arch. Virol. 2009,NA,NA,NA,H3N8,disrupted second sialic acid binding site in horses (and dogs),10.1007/s00705-009-0393-x
+34,NA,N400S,N,400,S,Uhlendorff et al. Arch. Virol. 2009,NA,NA,NA,,,10.1007/s00705-009-0393-x
+35,NA,N400K,N,400,K,Uhlendorff et al. Arch. Virol. 2009,NA,NA,NA,,disrupted second sialic acid binding site,10.1007/s00705-009-0393-x
+36,NA,T401A,T,401,A,Dai et al. J. Virol. 2017,NA,NA,NA,N9,disrupted second sialic acid binding site,10.1128/JVI.00049-17
+37,NA,W403R,W,403,R,Du et al. FEBS J. 2021,NA,NA,NA,,disrupted second sialic acid binding site,10.1111/febs.15668
+38,NA,K432E,K,432,E,Dai et al. MBio 2021; Air et al. J. Virol. 1990,NA,NA,NA,N1; N9,disrupted second sialic acid binding site; Immune escape mutant - disruption of the second sialic acid binding site?,10.1128/mbio.00287-21; 10.1128/jvi.64.12.5797-5803.1990
+39,NA,K435G,K,435,G,Air et al. J. Virol. 1990,NA,NA,NA,N9,Immune escape mutant - disruption of the second sialic acid binding site?,10.1128/jvi.64.12.5797-5803.1990
+40,NA,K432N,K,432,N,Dai et al. MBio 2021,NA,NA,NA,N1,disrupted second sialic acid binding site,10.1128/mbio.00287-21
+41,NA,V436A,V,436,A,Song et al. J. Virol. 2009,NA,NA,NA,H5N2,,10.1128/JVI.01373-09
+42,NA,I461V,I,461,V,Wu et al. Vet. Microbiol. 2009,NA,NA,NA,H9N2,,10.1016/j.vetmic.2009.03.010
+43,NA,P468H,P,468,H,Ping et al. PLoS One 2011; Brown et al. PNAS 2001,NA,NA,NA,H3N2,in 4/6; ,10.1371/journal.pone.0021740; 10.1073/pnas.111165798
+46,NA,K368E,K,368,E,,NA,NA,NA,,,
+47,NA,T368L,T,368,L,,NA,NA,NA,,,

@@ -1,0 +1,547 @@
+,Segment,Mutation,Mutation.H5.numbering,WT,Position,Mutant,Paper..s.,Experimentally.Verified,How.was.the.mutation.discovered,Which.virus.,Notes,DOI
+1,HA,L-1N,L-11N,L,-1,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+2,HA,V5T,V-6T,V,5,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+3,HA,Y17M,Y7M,Y,17,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+4,HA,Y17T,Y7T,Y,17,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+5,HA,Y17F,Y7F,Y,17,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+6,HA,Y17W,Y7W,Y,17,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+7,HA,Y17C,Y7C,Y,17,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+8,HA,Y17H,Y7H,Y,17,H,Reed et al. J. Virol. 2009,NA,,,Increases pH stability in HA,10.1128/JVI.02238-08
+9,HA,H18C,H8C,H,18,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+10,HA,H18F,H8F,H,18,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+11,HA,H18Q,H8Q,H,18,Q,Reed et al. J. Virol. 2009,NA,,H5N1,Increases pH stability in HA,10.1128/JVI.02238-08
+12,HA,A19N,A9N,A,19,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+13,HA,E24I,E14I,E,24,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+14,HA,Q25W,Q15W,Q,25,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+15,HA,I29M,I19M,I,29,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+16,HA,I29S,I19S,I,29,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+17,HA,I29W,I19W,I,29,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+18,HA,I29Q,I19Q,I,29,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+19,HA,M30L,M20L,M,30,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+20,HA,M30Y,M20Y,M,30,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+21,HA,M30I,M20I,M,30,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+22,HA,E31S,E21S,E,31,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+23,HA,E31R,E21R,E,31,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+24,HA,K32R,K22R,K,32,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+25,HA,H38Y,H28Y,H,38,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+26,HA,A39W,A29W,A,39,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+27,HA,A39T,A29T,A,39,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+28,HA,A39I,A29I,A,39,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+29,HA,A39F,A29F,A,39,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+30,HA,A39Y,A29Y,A,39,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+31,HA,Q40I,Q30I,Q,40,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+32,HA,Q40V,Q30V,Q,40,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+33,HA,D41S,D31S,D,41,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+34,HA,D41T,D31T,D,41,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+35,HA,D41W,D31W,D,41,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+36,HA,D41G,D31G,D,41,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+37,HA,D41E,D31E,D,41,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+38,HA,E44T,E34T,E,44,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+39,HA,E44M,E34M,E,44,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+40,HA,E44Q,E34Q,E,44,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+41,HA,E44S,E34S,E,44,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+42,HA,E44L,E34L,E,44,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+43,HA,K45H,K35H,K,45,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+44,HA,K45S,K35S,K,45,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+45,HA,K45A,K35A,K,45,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+46,HA,T46G,T36G,T,46,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+47,HA,N48L,N38L,N,48,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+48,HA,L51I,L41I,L,51,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+49,HA,L54Y,L44Y,L,54,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+50,HA,N54M,N44M,N,54,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 54a,10.1371/journal.pbio.3002916
+51,HA,N54L,N44L,N,54,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 54a,10.1371/journal.pbio.3002916
+52,HA,N54I,N44I,N,54,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 54a,10.1371/journal.pbio.3002916
+53,HA,N54D,N44D,N,54,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 54a,10.1371/journal.pbio.3002916
+54,HA,N54G,N44G,N,54,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 54a,10.1371/journal.pbio.3002916
+55,HA,L54M,L44M,L,54,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+56,HA,L54I,L44I,L,54,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+57,HA,V56S,V47S,V,56,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+58,HA,K57H,K48H,K,57,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+59,HA,K57E,K48E,K,57,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+60,HA,K57G,K48G,K,57,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+61,HA,K57Q,K48Q,K,57,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+62,HA,K57I,K48I,K,57,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+63,HA,I60T,I51T,I,60,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+64,HA,L61V,L52V,L,61,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+65,HA,L61M,L52M,L,61,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+66,HA,K62T,K53T,K,62,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+67,HA,K62E,K53E,K,62,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+68,HA,K62Y,K53Y,K,62,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+69,HA,K62W,K53W,K,62,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+70,HA,C64F,C55F,C,64,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+71,HA,S65G,S56G,S,65,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+72,HA,S65N,S56N,S,65,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+73,HA,V66L,V57L,V,66,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+74,HA,V66M,V57M,V,66,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+75,HA,V66F,V57F,V,66,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+76,HA,A67K,A58K,A,67,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+77,HA,A67Q,A58Q,A,67,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+78,HA,A67G,A58G,A,67,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+79,HA,G68S,G59S,G,68,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+80,HA,W69A,W60A,W,69,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+81,HA,L70V,L61V,L,70,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+82,HA,L70I,L61I,L,70,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+83,HA,G72D,G63D,G,72,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+84,HA,G72E,G63E,G,72,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+85,HA,G72H,G63H,G,72,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+86,HA,N73M,N64M,N,73,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+87,HA,N73C,N64C,N,73,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+88,HA,P74M,P65M,P,74,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+89,HA,D77T,D68T,D,77,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+90,HA,D77A,D68A,D,77,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+91,HA,D77H,D68H,D,77,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+92,HA,D77M,D68M,D,77,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+93,HA,D77E,D68E,D,77,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+94,HA,D77N,D68N,D,77,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+95,HA,D77I,D68I,D,77,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+96,HA,D77G,D68G,D,77,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+97,HA,D77R,D68R,D,77,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+98,HA,D77L,D68L,D,77,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+99,HA,E78D,E69D,E,78,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+100,HA,E78T,E69T,E,78,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+101,HA,E78F,E69F,E,78,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+102,HA,E78L,E69L,E,78,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+103,HA,E78N,E69N,E,78,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+104,HA,E78K,E69K,E,78,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+105,HA,E78P,E69P,E,78,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+106,HA,E78W,E69W,E,78,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+107,HA,E78M,E69M,E,78,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+108,HA,F79N,F70N,F,79,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+109,HA,F79H,F70H,F,79,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+110,HA,I80G,I71G,I,80,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+111,HA,R81T,R72T,R,81,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+112,HA,R81W,R72W,R,81,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+113,HA,R81L,R72L,R,81,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+114,HA,R81I,R72I,R,81,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+115,HA,R81G,R72G,R,81,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+116,HA,R81V,R72V,R,81,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+117,HA,R81M,R72M,R,81,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+118,HA,P82W,P73W,P,82,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 82a,10.1371/journal.pbio.3002916
+119,HA,V82Y,V73Y,V,82,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+120,HA,V82D,V73D,V,82,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+121,HA,P82S,P73S,P,82,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA -82a,10.1371/journal.pbio.3002916
+122,HA,V82L,V73L,V,82,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+123,HA,V82P,V73P,V,82,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+124,HA,P82C,P73C,P,82,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 82a,10.1371/journal.pbio.3002916
+125,HA,V82A,V73A,V,82,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+126,HA,P82G,P73G,P,82,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA -82a,10.1371/journal.pbio.3002916
+127,HA,V82I,V73I,V,82,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+128,HA,V82K,V73K,V,82,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+129,HA,V82C,V73C,V,82,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+130,HA,E83K,E75K,E,83,K,Yamada et al. Nature 2006; Dadonaite et al. PLoS Biol. 2024,NA,; Deep Scanning Mutagenesis,H5N1,"Individually E83K, S128P, N197K, R496K (HA2 R167K) did not increase HA binding to α2–6 but combinations of these mutations did increase binding.; Increases pH stability in HA",10.1038/nature05264; 10.1371/journal.pbio.3002916
+131,HA,E83D,E75D,E,83,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+132,HA,E83R,E75R,E,83,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+133,HA,E83Q,E75Q,E,83,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+134,HA,E83S,E75S,E,83,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+135,HA,S85P,S77P,S,85,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+136,HA,I87L,I79L,I,87,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+137,HA,I87V,I79V,I,87,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+138,HA,I87M,I79M,I,87,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+139,HA,R90N,R82N,R,90,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3; Increases pH stability in HA",10.1371/journal.pbio.3002916
+140,HA,R90Y,R82Y,R,90,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+141,HA,R90F,R82F,R,90,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+142,HA,R90P,R82P,R,90,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+143,HA,R90M,R82M,R,90,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+144,HA,R90W,R82W,R,90,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+145,HA,R90V,R82V,R,90,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+146,HA,R90E,R82E,R,90,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+147,HA,R90L,R82L,R,90,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+148,HA,R90I,R82I,R,90,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+149,HA,R90H,R82H,R,90,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+150,HA,R90Q,R82Q,R,90,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+151,HA,R90T,R82T,R,90,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+152,HA,A91P,A83P,A,91,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+153,HA,N92S,N84S,N,92,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+154,HA,P92I,P84I,P,92,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 92a,10.1371/journal.pbio.3002916
+155,HA,P92T,P84T,P,92,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 92a,10.1371/journal.pbio.3002916
+156,HA,P92V,P84V,P,92,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 92a,10.1371/journal.pbio.3002916
+157,HA,P92F,P84F,P,92,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 92a,10.1371/journal.pbio.3002916
+158,HA,P92M,P84M,P,92,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 92a,10.1371/journal.pbio.3002916
+159,HA,P92Q,P84Q,P,92,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 92a,10.1371/journal.pbio.3002916
+160,HA,P92Y,P84Y,P,92,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA - 92a,10.1371/journal.pbio.3002916
+161,HA,D95E,D88E,D,95,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+162,HA,D101N,D94N,D,101,N,Su et al. Arch. Virol. 2008,NA,Pseudovirus,H5N1,,10.1007/s00705-008-0255-y
+163,HA,L102M,L95M,L,102,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+164,HA,L102C,L95C,L,102,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+165,HA,N103A,N96A,N,103,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+166,HA,N103D,N96D,N,103,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+167,HA,D104I,D97I,D,104,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+168,HA,D104V,D97V,D,104,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+169,HA,E106D,E99D,E,106,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+170,HA,K109A,K102A,K,109,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3; Increases pH stability in HA",10.1371/journal.pbio.3002916
+171,HA,K109C,K102C,K,109,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+172,HA,K109Q,K102Q,K,109,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+173,HA,H110Y,H103Y,H,110,Y,Herfst et al. Science 2012; Dadonaite et al. PLoS Biol. 2024,NA,; Deep Scanning Mutagenesis,H5N1,"HA H103Y, T156A, Q222L, G224S (with PB2: E627K; PB1: H99Y); Increases pH stability in HA",10.1126/science.1213362; 10.1371/journal.pbio.3002916
+174,HA,H110M,H103M,H,110,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+175,HA,H110S,H103S,H,110,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+176,HA,M111C,M104C,M,111,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+177,HA,M111Y,M104Y,M,111,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+178,HA,S114R,S107R,S,114,R,Wessels et al. J. Virol. 2018,NA,,H5N1,With T108I,10.1128/jvi.00778-18
+179,HA,R114Q,R107Q,R,114,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+180,HA,R114C,R107C,R,114,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+181,HA,R114K,R107K,R,114,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+182,HA,T115I,T108I,T,115,I,Wessels et al. J. Virol. 2018,NA,,H5N1,With S107R,10.1128/jvi.00778-18
+183,HA,N116S,N109S,N,116,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+184,HA,N116G,N109G,N,116,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+185,HA,H117Y,H110Y,H,117,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+186,HA,H117T,H110T,H,117,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+187,HA,H117I,H110I,H,117,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+188,HA,F118Y,F111Y,F,118,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+189,HA,E119S,E112S,E,119,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+190,HA,I124F,I117F,I,124,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+191,HA,K125E,K119E,K,125,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3 - 125a",10.1371/journal.pbio.3002916
+192,HA,S126N,S121N,S,126,N,Wang et al. J. Virol. 2010,NA,,H5N1,,10.1128/JVI.00221-10
+193,HA,S128P,S123P,S,128,P,Yamada et al. Nature 2006,NA,,H5N1,"Individually E83K, S128P, N197K, R496K (HA2 R167K) did not increase HA binding to α2–6 but combinations of these mutations did increase binding.",10.1038/nature05264
+194,HA,L133∆,L129∆,L,129,∆,Watanabe et al. PLoS Pathog. 2011,NA,,H5N1,With I151T - 133a,10.1371/journal.ppat.1002068
+195,HA,E131W,E126W,E,131,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+196,HA,L133V,L129V,L,133,V,Auewarakul et al. J. Virol. 2007,NA,,H5N1,With A134V - 133a,10.1128/JVI.00468-07
+197,HA,L133R,L129R,L,133,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,133a,10.1371/journal.pbio.3002916
+198,HA,L133K,L129K,L,133,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3 - 133a",10.1371/journal.pbio.3002916
+199,HA,S137A,S133A,S,137,A,Yang et al. Science 2007,NA,,H5N1,,10.1126/science.1135165
+200,HA,A137R,A133R,A,137,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+201,HA,A137W,A133W,A,137,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+202,HA,A138V,A134V,A,138,V,Naughtin et al. Antimicrob. Agents Chemother. 2011; Auewarakul et al. J. Virol. 2007; Kongchanagul et al. J. Gen. Virol. 2008,NA,,H5N1,; With L129V,10.1128/AAC.01773-10; 10.1128/JVI.00468-07; 10.1099/vir.0.2008/002469-0
+203,HA,A134T,A130T,A,134,T,Karlsson et al. Nat. Commun. 2014,NA,,H3N8,In Seals,10.1038/ncomms5791
+204,HA,G143R,G139R,G,143,R,Yamada et al. Nature 2006,NA,,H5N1,Also with N182K,10.1038/nature05264
+205,HA,A144P,A140P,A,144,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+206,HA,A144R,A140R,A,144,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+207,HA,P145R,P141R,P,145,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+208,HA,P145K,P141K,P,145,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+209,HA,S146K,S142K,S,146,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+210,HA,R149I,R145I,R,149,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+211,HA,R149K,R145K,R,149,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+212,HA,N150I,N146I,N,150,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+213,HA,N150Y,N146Y,N,150,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+214,HA,I155T, I151T,I,155,T,Watanabe et al. PLoS Pathog. 2011,NA,,H5N1; H9N2,With L129∆; With H183N,10.1371/journal.ppat.1002068
+215,HA,K156R,K152R,K,156,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+216,HA,S158N,S154N,S,158,N,Wang et al. J. Virol. 2010,NA,,H5N1,,10.1128/JVI.00221-10
+217,HA,N158D,N154D,N,158,D,Imai et al. Nature 2012,NA,,H5N1,"With N224K, Q226L, T318I",10.1038/nature10831
+218,HA,N158S,N154S,N,158,S,Ilyushina et al. PLoS Pathog. 2008,NA,,H5N1,"With Q226L, N248D",10.1371/journal.ppat.1000043
+219,HA,S159N,S155N,S,159,N,Wang et al. J. Virol. 2010,NA,,H5N1,,10.1128/JVI.00221-10
+220,HA,D159S,D155S,D,159,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+221,HA,T160A,T156A,T,160,A,Gao et al. PLoS Pathog. 2009; Herfst et al. Science 2012,NA,,H5N1,"; HA H103Y, T156A, Q222L, G224S (with PB2: E627K; PB1: H99Y)",10.1371/journal.ppat.1000709; 10.1126/science.1213362
+222,HA,S167K,S163K,S,167,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+223,HA,S167H,S163H,S,167,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+224,HA,N169Y,N165Y,N,169,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+225,HA,E174M,E170M,E,174,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+226,HA,D175K,D171K,D,175,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+227,HA,D175N,D171N,D,175,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+228,HA,D175R,D171R,D,175,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+229,HA,D175M,D171M,D,175,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+230,HA,H184N,H180N,H,184,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+231,HA,G186V,G182V,G,186,V,Dortmans et al. Sci. Rep. 2013,NA,,H7N9,,10.1038/srep03058
+232,HA,N186D,N182D,N,186,D,Kongchanagul et al. J. Gen. Virol. 2008,NA,,H5N1,,10.1099/vir.0.2008/002469-0
+233,HA,N186K,N182K,N,186,K,Yamada et al. Nature 2006,NA,,H5N1,,10.1038/nature05264
+234,HA,V186N,V182N,V,186,N,Lu et al. J. Virol. 2013; de et al. PLoS Pathog. 2017,NA,,H13N6; H7N9,; With G228S and (N224K),10.1128/JVI.00235-13; 10.1371/journal.ppat.1006390
+235,HA,P186L,P182L,P,186,L,Wang et al. EMBO J. 2015,NA,,H6N1,,10.15252/embj.201590960
+236,HA,V186G,V182G,V,186,G,de et al. PLoS Pathog. 2017,NA,,H7N9,"With G228S and K193T stopped binding to alpha 2,3",10.1371/journal.ppat.1006390
+237,HA,V186K,V182K,V,186,K,de et al. PLoS Pathog. 2017,NA,,H7N9,"With G228S and K193T stopped binding to alpha 2,4",10.1371/journal.ppat.1006390
+238,HA,N186Q,N182Q,N,186,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+239,HA,D187G,D183G,D,187,G,Chen et al. Virology 2012,NA,,H5N1,,10.1016/j.virol.2011.10.006
+240,HA,E187G,E183G,E,187,G,Maines et al. Virology 2011,NA,,H5N1,"With E183G, E186D, K189S, Q222L, G224S",10.1016/j.virol.2011.02.015
+241,HA,T187P,T183P,T,187,P,Liu et al. Virol. Sin. 2023,NA,Serial passage in mice,H9N2,In mice. With M227L,10.1016/j.virs.2022.09.006
+242,HA,N187W,N183W,N,187,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+243,HA,N187V,N183V,N,187,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+244,HA,T189A,T185A,T,189,A,Sorrell et al. PNAS 2009,NA,,H9N2 (with human H3N2 backbone),T179A in H9 numbering,10.1073/pnas.0900877106
+245,HA,E189L,E185L,E,189,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+246,HA,E189A,E185A,E,189,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+247,HA,E190D,E186D,E,190,D,Maines et al. Virology 2011,NA,,H5N1,And H1N1,10.1016/j.virol.2011.02.015
+248,HA,E190G,E186G,E,190,G,Han et al. J. Med. Virol. 2015; Dadonaite et al. PLoS Biol. 2024,NA,; Deep Scanning Mutagenesis,H5N1,"; Increases alpha 2,6 binding compared to alpha 2,3",10.1002/jmv.24257; 10.1371/journal.pbio.3002916
+249,HA,E190V,E186V,E,190,V,Qu et al. Microbes Infect. 2017,NA,,H6N2,,10.1016/j.micinf.2017.09.008
+250,HA,T190V,T186V,T,190,V,Teng et al. J. Virol. 2016,NA,,H9N2,,10.1128/JVI.01141-16
+251,HA,A190V,A186V,A,190,V,Yang et al. J. Virol. 2017,NA,,H9N2,Passaged in pigs and tested in mice,10.1128/JVI.02125-16
+252,HA,E190N,E186N,E,190,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+253,HA,E190A,E186A,E,190,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+254,HA,E190Q,E186Q,E,190,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+255,HA,T192I,T188I,T,192,I,Yang et al. Science 2007,NA,,H5N1,,10.1126/science.1135165
+256,HA,T192F,T188F,T,192,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+257,HA,K193T,K189T,K,193,T,Peng et al. J. Virol. 2018,NA,,H5N1,,10.1128/JVI.02016-17
+258,HA,K193R,K189R,K,193,R,Peng et al. J. Virol. 2018,NA,,H5N1,,10.1128/JVI.02016-17
+259,HA,K193S,K189S,K,193,S,Maines et al. Virology 2011,NA,,H5N1,"With E183G, E186D, K189S, Q222L, G224S",10.1016/j.virol.2011.02.015
+260,HA,N193W,N189W,N,193,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+261,HA,N193R,N189R,N,193,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+262,HA,Q196R,Q192R,Q,196,R,Chen et al. Virology 2012,NA,,H5N1,,10.1016/j.virol.2011.10.006
+263,HA,Q196H,Q192H,Q,196,H,Watanabe et al. PLoS Pathog. 2011,NA,,H5N1,CHECK,10.1371/journal.ppat.1002068
+264,HA,N193D,N189D,N,197,D,Jang et al. Emerg. Microbes Infect. 2024,NA,,H5N1,,10.1080/22221751.2024.2302854
+265,HA,N197K,N193K,N,197,K,Yamada et al. Nature 2006,NA,,H5N1,"; Individually E83K, S128P, N197K, R496K (HA2 R167K) did not increase HA binding to α2–6 but combinations of these mutations did increase binding.",10.1038/nature05264
+266,HA,Y201M,Y197M,Y,201,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+267,HA,T212I,T208I,T,212,I,Yang et al. J. Virol. 2017,NA,,H9N2,With A190V. Passaged in pigs and tested in mice.,10.1128/JVI.02125-16
+268,HA,V214I,V210I,V,214,I,Watanabe et al. PLoS Pathog. 2011,NA,,H5N1,,10.1371/journal.ppat.1002068
+269,HA,A214V,A210V,A,214,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+270,HA,A218I,A214I,A,218,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+271,HA,E222K,E218K,E,222,K,Mänz et al. J. Virol. 2010,NA,,H5N1,Increased neurotropism in mice,10.1128/JVI.00850-10
+272,HA,N224K,N220K,N,224,K,de et al. PLoS Pathog. 2017,NA,,H7N9,,10.1371/journal.ppat.1006390
+273,HA,N224Y,N220Y,N,224,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+274,HA,G225D,G221D,G,225,D,de et al. EMBO Mol. Med. 2017,NA,,H6N1,,10.15252/emmm.201707726
+275,HA,G225E,G221E,E,225,E,Wang et al. J. Virol. 2017,NA,,H1N1,Eurasian avian-like H1N1 in Guinea pigs.,10.1128/jvi.00800-17
+276,HA,G225N,G221N,G,225,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+277,HA,G225Q,G221Q,G,225,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+278,HA,G225F,G221F,G,225,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+279,HA,G225R,G221R,G,225,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+280,HA,G225L,G221L,G,225,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+281,HA,Q226E,Q222E,Q,226,E,Chen et al. Virology 2012,NA,,H5N1,,10.1016/j.virol.2011.10.006
+282,HA,Q226L,Q222L,Q,226,L,Song et al. Cell Rep. 2017; Qu et al. Microbes Infect. 2017; ; Dadonaite et al. PLoS Biol. 2024,NA,; Deep Scanning Mutagenesis,H4N6; H6N2; H5N1; H7N9; H9N2; H10N8,"; Increases alpha 2,6 binding compared to alpha 2,3",10.1016/j.celrep.2017.07.028; 10.1016/j.micinf.2017.09.008; ; 10.1371/journal.pbio.3002916
+283,HA,Q227P,Q223P,Q,226,P,Sang et al. Sci. Rep. 2015,NA,,H9N2,With HA2 D46E - enhanced transmission in guinea pigs,10.1038/srep15928
+284,HA,Q226V,Q222V,Q,226,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+285,HA,Q226M,Q222M,Q,226,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+286,HA,Q226Y,Q222Y,Q,226,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+287,HA,Q226F,Q222F,Q,226,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+288,HA,Q226R,Q222R,Q,226,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+289,HA,Q226N,Q222N,Q,226,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+290,HA,Q226A,Q222A,Q,226,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+291,HA,S227N,S223N,S,227,N,Yamada et al. Nature 2006; Chen et al. Virology 2012,NA,,H5N1,,10.1038/nature05264; 10.1016/j.virol.2011.10.006
+292,HA,R227H,R223H,R,227,H,Zhang et al. Front. Microbiol. 2017,NA,,,,10.3389/fmicb.2017.01763
+293,HA,M227L,M223L,M,227,L,Liu et al. Virol. Sin. 2023,NA,Serial passage in mice,H9N2,In mice. With T187P,10.1016/j.virs.2022.09.006
+294,HA,R227Y,R223Y,R,227,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+295,HA,G228A,G224A,G,228,A,Song et al. Cell Rep. 2017; Dadonaite et al. PLoS Biol. 2024,NA,; Deep Scanning Mutagenesis,H4N6; H5N1,"; Increases alpha 2,6 binding compared to alpha 2,3",10.1016/j.celrep.2017.07.028; 10.1371/journal.pbio.3002916
+296,HA,G228S,G224S,G,228,S,Song et al. Cell Rep. 2017; Yu et al. Arch. Virol. 2019; Dadonaite et al. PLoS Biol. 2024,NA,; Deep Scanning Mutagenesis,H4N6; H1N2; H5N1,"; Increases alpha 2,6 binding compared to alpha 2,3",10.1016/j.celrep.2017.07.028; 10.1007/s00705-019-04283-0; 10.1371/journal.pbio.3002916
+297,HA,P239S,P235S,P,239,S,Watanabe et al. PLoS Pathog. 2011,NA,,H5N1,,10.1371/journal.ppat.1002068
+298,HA,N248D,N244D,N,248,D,Ilyushina et al. PLoS Pathog. 2008,NA,,H5N1,"With N158S, Q226L",10.1371/journal.ppat.1000043
+299,HA,N248A,N244A,N,248,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+300,HA,E255K,E251K,E,255,K,Chen et al. Virology 2012,NA,,H5N1,,10.1016/j.virol.2011.10.006
+301,HA,Y256N,Y252N,Y,256,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+302,HA,Y258V,Y254V,Y,258,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+303,HA,Y258I,Y254I,Y,258,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+304,HA,K259V,K255V,K,259,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+305,HA,I260F,I256F,I,260,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+306,HA,V261E,V257E,V,261,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+307,HA,K262I,K258I,K,262,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+308,HA,K262E,K258E,K,262,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+309,HA,K262V,K258V,K,262,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+310,HA,K262T,K258T,K,262,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+311,HA,K262M,K258M,K,262,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+312,HA,K262C,K258C,K,262,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+313,HA,K262N,K258N,K,262,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA; Increases pH stability in HA - 262a,10.1371/journal.pbio.3002916
+314,HA,K262L,K258L,K,262,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+315,HA,K262A,K258A,K,262,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA; Increases pH stability in HA - 262a,10.1371/journal.pbio.3002916
+316,HA,G263K,G260K,G,263,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+317,HA,G263V,G260V,G,263,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+318,HA,T266S,T263S,T,266,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+319,HA,T266G,T263G,T,266,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+320,HA,I267V,I264V,I,267,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+321,HA,M268F,M265F,M,268,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+322,HA,K269I,K266I,K,269,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+323,HA,K269N,K266N,K,269,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+324,HA,K269E,K266E,K,269,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+325,HA,K269A,K266A,K,269,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+326,HA,G275M,G272M,G,275,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+327,HA,T279L,T276L,T,279,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+328,HA,T283A,T280A,T,283,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+329,HA,N289L,N286L,N,289,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+330,HA,N289P,N286P,N,289,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+331,HA,N289M,N286M,N,289,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+332,HA,N289Q,N286Q,N,289,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+333,HA,S290A,S287A,S,290,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+334,HA,S290V,S287V,S,290,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+335,HA,S290N,S287N,S,290,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+336,HA,S290W,S287W,S,290,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+337,HA,S290H,S287H,S,290,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+338,HA,S291Y,S288Y,S,291,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+339,HA,S291G,S288G,S,291,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+340,HA,S291I,S288I,S,291,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+341,HA,S291P,S288P,S,291,P,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+342,HA,S291W,S288W,S,291,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+343,HA,S291K,S288K,S,291,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+344,HA,S291F,S288F,S,291,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+345,HA,S291R,S288R,S,291,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+346,HA,S291N,S288N,S,291,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+347,HA,S291Q,S288Q,S,291,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+348,HA,S291L,S288L,S,291,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+349,HA,M292N,M289N,M,292,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+350,HA,M292F,M289F,M,292,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+351,HA,M292L,M289L,M,292,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+352,HA,M292W,M289W,M,292,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+353,HA,I297V,I294V,I,297,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+354,HA,H298S,H295S,H,298,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+355,HA,H298N,H295N,H,298,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+356,HA,H298G,H295G,H,298,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+357,HA,P299Q,P296Q,P,299,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+358,HA,P299M,P296M,P,299,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+359,HA,P299V,P296V,P,299,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+360,HA,P299L,P296L,P,299,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+361,HA,P299N,P296N,P,299,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+362,HA,P299I,P296I,P,299,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+363,HA,L300W,L297W,L,300,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+364,HA,T301I,T298I,T,301,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+365,HA,E304F,E301F,E,304,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+366,HA,P306G,P303G,P,306,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+367,HA,V309Y,V306Y,V,309,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+368,HA,K310G,K307G,K,310,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+369,HA,K310N,K307N,K,310,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+370,HA,K310Q,K307Q,K,310,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+371,HA,K310C,K307C,K,310,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+372,HA,K310F,K307F,K,310,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+373,HA,V315R,V312R,V,315,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+374,HA,V315N,V312N,V,315,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+375,HA,V315A,V312A,V,315,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+376,HA,V315L,V312L,V,315,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+377,HA,V315Y,V312Y,V,315,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+378,HA,V315M,V312M,V,315,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+379,HA,L316M,L313M,L,316,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+380,HA,T318I,T315I,T,318,I,Imai et al. Nature 2012,NA,,H5N1,"With N158D, N224K, Q226L",10.1038/nature10831
+381,HA,S323E,S320E,S,323,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+382,HA,S323V,S320V,S,323,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+383,HA,S323I,S320I,S,323,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+384,HA,S323L,S320L,S,323,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+385,HA,K328G,K325G,K,328,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+386,HA,G330F,G330F,G,330,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+387,HA,F332I,F332I,F,332,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+388,HA,F332V,F332V,F,332,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+389,HA,F332L,F332L,F,332,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+390,HA,F332M,F332M,F,332,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+391,HA,G333M,G333M,G,333,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+392,HA,G333V,G333V,G,333,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+393,HA,G333L,G333L,G,333,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+394,HA,G333F,G333F,G,333,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+395,HA,G333S,G333S,G,333,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+396,HA,G333A,G333A,G,333,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+397,HA,G333Y,G333Y,G,333,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+398,HA,A334M,A334M,A,334,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+399,HA,A334I,A334I,A,334,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+400,HA,I335A,I335A,I,335,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+401,HA,I335M,I335M,I,335,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+402,HA,I335L,I335L,I,335,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+403,HA,I335V,I335V,I,335,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+404,HA,E340D,E340D,E,340,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+405,HA,G345Y,G345Y,G,345,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+406,HA,M346L,M346L,M,346,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+407,HA,H355Y,H355Y,H,355,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+408,HA,E358Y,E358Y,E,358,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+409,HA,D368E,D369E,D,368,E,Sang et al. Sci. Rep. 2015,NA,,H9N2,HA2 D46E- With Q227P - enhanced transmission in guinea pigs,10.1038/srep15928
+410,HA,S369F,S369F,S,369,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+411,HA,S369I,S369I,S,369,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+412,HA,K372I,K372I,K,372,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+413,HA,G376M,G376M,G,376,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+414,HA,G376A,G376A,G,376,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+415,HA,S383H,S383H,S,383,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+416,HA,I385C,I385C,I,385,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+417,HA,D386K,D386K,D,386,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+418,HA,D386Y,D386Y,D,386,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+419,HA,D386F,D386F,D,386,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+420,HA,D386G,D386G,D,386,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+421,HA,D386T,D386T,D,386,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+422,HA,D386H,D386H,D,386,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+423,HA,K387I,K388I,K,387,I,Krenn et al. PLoS One 2011; Reed et al. J. Virol. 2009,NA,,H5N1; ,K58I in HA2; Increases pH stability in HA,10.1371/journal.pone.0018577; 10.1128/JVI.02238-08
+424,HA,K387V,K387V,K,387,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+425,HA,N389V,N389V,N,389,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+426,HA,N389I,N389I,N,389,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+427,HA,Q391E,Q391E,Q,391,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+428,HA,K393E,K394E,K,393,E,Murakami et al. J. Virol. 2012; Sun et al. Virology 2019,NA,,,K64E in HA2,10.1128/JVI.06009-11; 10.1016/j.virol.2019.07.012
+429,HA,V395F,V395F,V,395,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+430,HA,V395R,V395R,V,395,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+431,HA,R397S,R397S,R,397,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+432,HA,R397M,R397M,R,397,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+433,HA,R397C,R397C,R,397,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+434,HA,R397V,R397V,R,397,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+435,HA,R397N,R397N,R,397,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+436,HA,F399W,F399W,F,399,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+437,HA,L402R,L402R,L,402,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+438,HA,E407F,E407F,E,407,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+439,HA,E407Y,E407Y,E,407,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+440,HA,E407A,E407A,E,407,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+441,HA,N408M,N408M,N,408,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+442,HA,N408Y,N408Y,N,408,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+443,HA,N408V,N408V,N,408,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+444,HA,L409V,L409V,L,409,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+445,HA,N410E,N410E,N,410,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+446,HA,K411N,K411N,K,411,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+447,HA,M413L,M413L,M,413,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+448,HA,E414H,E414H,E,414,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+449,HA,D415Q,D415Q,D,415,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+450,HA,L418F,L418F,L,418,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+451,HA,L418N,L418N,L,418,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+452,HA,L418E,L418E,L,418,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+453,HA,L418D,L418D,L,418,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+454,HA,L418S,L418S,L,418,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+455,HA,L418Y,L418Y,L,418,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+456,HA,D419E,D419E,D,419,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+457,HA,D419M,D419M,D,419,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+458,HA,V420A,V420A,V,420,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+459,HA,V420M,V420M,V,420,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+460,HA,L427M,L427M,L,427,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+461,HA,L427Y,L427Y,L,427,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+462,HA,L428M,L428M,L,428,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+463,HA,L428I,L428I,L,428,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+464,HA,M431K,M431K,M,431,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+465,HA,M431R,M431R,M,431,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+466,HA,E432S,E432S,E,432,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+467,HA,E434D,E434D,E,434,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+468,HA,E434L,E434L,E,434,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+469,HA,E434T,E434T,E,434,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+470,HA,R435D,R435D,R,435,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+471,HA,R435Q,R435Q,R,435,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+472,HA,R435E,R435E,R,435,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+473,HA,R435K,R435K,R,435,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+474,HA,L437M,L437M,L,437,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+475,HA,D438A,D438A,D,438,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+476,HA,D438C,D438C,D,438,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+477,HA,D438Q,D438Q,D,438,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+478,HA,D438N,D438N,D,438,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+479,HA,D441L,D441L,D,441,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+480,HA,D441I,D441I,D,441,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+481,HA,D441Y,D441Y,D,441,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+482,HA,D441M,D441M,D,441,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+483,HA,D441H,D441H,D,441,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+484,HA,D441F,D441F,D,441,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+485,HA,D441T,D441T,D,441,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+486,HA,D441Q,D441Q,D,441,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+487,HA,D441W,D441W,D,441,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+488,HA,D441R,D441R,D,441,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+489,HA,D441V,D441V,D,441,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+490,HA,D441C,D441C,D,441,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+491,HA,D441G,D441G,D,441,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+492,HA,D441N,D441N,D,441,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+493,HA,S442H,S442H,S,442,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+494,HA,S442D,S442D,S,442,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+495,HA,S442C,S442C,S,442,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+496,HA,S442V,S442V,S,442,V,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+497,HA,S442Q,S442Q,S,442,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+498,HA,S442N,S442N,S,442,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+499,HA,S442A,S442A,S,442,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+500,HA,S442I,S442I,S,442,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+501,HA,V444L,V444L,V,444,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+502,HA,V444I,V444I,V,444,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+503,HA,N446E,N446E,N,446,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+504,HA,N446M,N446M,N,446,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+505,HA,N446L,N446L,N,446,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+506,HA,N446A,N446A,N,446,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+507,HA,N446Y,N446Y,N,446,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+508,HA,N446W,N446W,N,446,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+509,HA,N446H,N446H,N,446,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+510,HA,N446R,N446R,N,446,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+511,HA,N446D,N446D,N,446,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+512,HA,N446S,N446S,N,446,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+513,HA,N446T,N446T,N,446,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+514,HA,N446I,N446I,N,446,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+515,HA,N446G,N446G,N,446,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+516,HA,N446K,N446K,N,446,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+517,HA,N446C,N446C,N,446,C,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+518,HA,D449Y,D449Y,D,449,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+519,HA,D449G,D449G,D,449,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+520,HA,D449L,D449L,D,449,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+521,HA,L453R,L453R,L,453,R,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+522,HA,L453Q,L453Q,L,453,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+523,HA,E461D,E461D,E,461,D,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+524,HA,G463N,G463N,G,463,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+525,HA,G463L,G463L,G,463,L,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+526,HA,N464S,N464S,N,464,S,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+527,HA,G465Y,G465Y,G,465,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+528,HA,R482E,R482E,R,482,E,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+529,HA,G484H,G484H,G,484,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916
+530,HA,P489A,P489A,P,489,A,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+531,HA,R496K,R497K,R,496,K,Yamada et al. Nature 2006,NA,,H5N1,"Individually E83K, S128P, N197K, R496K (HA2 R167K) did not increase HA binding to α2–6 but combinations of these mutations did increase binding.; With N197K",10.1038/nature05264
+532,HA,E500G,E500G,E,500,G,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+533,HA,I502Q,I502Q,I,502,Q,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+534,HA,S503I,S503I,S,503,I,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+535,HA,I514T,I515T,I,514,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+536,HA,I514F,I515F,I,514,F,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+537,HA,G522R,G523R,G,522,R,Sorrell et al. PNAS 2009,NA,,H9N2 (with human H3N2 backbone),,10.1073/pnas.0900877106
+538,HA,N541K,N542K,N,541,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+539,HA,S543H,S544H,S,543,H,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+540,HA,Q545K,Q546K,Q,545,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+541,HA,I548K,I549K,I,548,K,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+542,HA,I548Y,I549Y,I,548,Y,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+543,HA,I550W,I551W,I,550,W,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
+544,HA,E434K,E434K,E,434,K,Reed et al. J. Virol. 2009,NA,,,Increases pH stability in HA,10.1128/JVI.02238-08
+545,HA,N443K,N443K,N,443,K,Reed et al. J. Virol. 2009,NA,,,Increases pH stability in HA,10.1128/JVI.02238-08
+546,HA,E31K,E21K,E,31,K,Cotter et al. PLoS Pathog. 2014,NA,,,Increases pH stability in HA,10.1371/journal.ppat.1003831

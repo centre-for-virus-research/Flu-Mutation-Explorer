@@ -1,0 +1,62 @@
+,Segment,Mutation,WT,Position,Mutant,Paper..s.,Experimentally.Verified,How.was.the.mutation.discovered,Which.virus.,Notes,Extra.Notes,DOI
+1,NP,Q12R,Q,12,R,Danzy et al. J. Virol. 2014,,,,In Mice,,10.1128/JVI.01093-14
+2,NP,G16D,G,16,D,Mänz et al. PLoS Pathog. 2013,,,,In Mice,also see Gotz et al Sci rep 2016,10.1371/journal.ppat.1003279
+3,NP,D34N,D,34,N,Ping et al. PLoS One 2011; Brown et al. PNAS 2001,,,,In Mice,,10.1371/journal.pone.0021740; 10.1073/pnas.111165798
+4,NP,I41V,I,41,V,Zhu et al. Virol. J. 2015,,,,,,10.1186/s12985-015-0304-6
+5,NP,S50G,S,50,G,Danzy et al. J. Virol. 2014,,,,In Mice,,10.1128/JVI.01093-14
+6,NP,Y52H,Y,52,H,Park et al. J. Microbiol. 2015; Pinto et al. Nature 2023,,,,In Mice; BTN3A3 resistance,,10.1007/s12275-015-5329-4; 10.1038/s41586-023-06261-8
+7,NP,Y52N,Y,52,N,Wu et al. Vet. Microbiol. 2009; Pinto et al. Nature 2023,,,,In Mice; BTN3A3 resistance,,10.1016/j.vetmic.2009.03.010; 10.1038/s41586-023-06261-8
+8,NP,Y52Q,Y,52,Q,Pinto et al. Nature 2023,,,,BTN3A3 resistance,,10.1038/s41586-023-06261-8
+9,NP,E53D,E,53,D,Mänz et al. PLoS Pathog. 2013,,,,In Mice,,10.1371/journal.ppat.1003279
+10,NP,R99K,R,99,K,Herfst et al. Science 2012; Dornfeld et al. J. Virol. 2019,,,,"with S345N and with HA: H110Y, T160A, Q226L, G228S; PB2: E627K; PB1: H99Y, I368V; ",,10.1126/science.1213362; 10.1128/jvi.00997-18
+11,NP,R100V,R,100,V,Mänz et al. PLoS Pathog. 2013; Pinto et al. Nature 2023,,,,In Mice; ,,10.1371/journal.ppat.1003279; 10.1038/s41586-023-06261-8
+12,NP,R100I,R,100,I,Mänz et al. PLoS Pathog. 2013,,,,In Mice,,10.1371/journal.ppat.1003279
+13,NP,V100I,V,100,I,Otte et al. J. Virol. 2015,,,,In Mice,,10.1128/JVI.00665-15
+14,NP,D101G,D,101,G,Ilyushina et al. J. Virol. 2010,,,,In Mice,,10.1128/JVI.00159-10
+15,NP,D101N,D,101,N,Ainai et al. PLoS One 2015,,,,In Mice,,10.1371/journal.pone.0130208
+16,NP,V105M,V,105,M,Liu et al. Arch. Virol. 2014,,,,In Mice,,10.1007/s00705-014-2062-y
+17,NP,I109T,I,109,T,Tada et al. J. Virol. 2011,,,,In Mice,,10.1128/JVI.01648-10
+18,NP,I133L,I,133,L,Otte et al. J. Virol. 2015,,,,In Mice,,10.1128/JVI.00665-15
+19,NP,E210D,E,210,D,Zhu et al. Virol. J. 2015,,,,,,10.1186/s12985-015-0304-6
+20,NP,R231Q,R,231,Q,Wu et al. Vet. Microbiol. 2009,,,,In Mice,,10.1016/j.vetmic.2009.03.010
+21,NP,D240A,D,240,A,Wu et al. Vet. Microbiol. 2009,,,,In Mice,,10.1016/j.vetmic.2009.03.010
+22,NP,R246T,R,246,T,Yao et al. Arch. Virol. 2013,,,,In Mice,,10.1007/s00705-012-1496-3
+23,NP,L283P,L,283,P,Mänz et al. PLoS Pathog. 2013,,,,In Mice,,10.1371/journal.ppat.1003279
+24,NP,A284T,A,284,T,Zhao et al. Vet. Microbiol. 2016,,,,In Mice,,10.1016/j.vetmic.2016.02.027
+25,NP,V284M,V,284,M,Sutton et al. J. Virol. 2014,,,H7N1,"From 10 passages in ferrets with PB2 T81I, NP V284M, and M1 R95K and Q211K",,10.1128/jvi.02765-13
+26,NP,G288V,G,288,V,Yao et al. Arch. Virol. 2013,,,,In Mice,,10.1007/s00705-012-1496-3
+27,NP,Y289H,Y,289,H,Mänz et al. PLoS Pathog. 2013,,,,,,10.1371/journal.ppat.1003279
+28,NP,H289Y,H,289,Y,Ilyushina et al. J. Virol. 2010,,,,In Mice,,10.1128/JVI.00159-10
+29,NP,N309K,N,309,K,Danzy et al. J. Virol. 2014,,,,In Mice,,10.1128/JVI.01093-14
+30,NP,F313Y,F,313,Y,Mänz et al. PLoS Pathog. 2013; Pinto et al. Nature 2023,,,,In Mice; BTN3A3 resistance,,10.1371/journal.ppat.1003279; 10.1038/s41586-023-06261-8
+31,NP,F313V,F,313,V,Pinto et al. Nature 2023,,,,BTN3A3 resistance,,10.1038/s41586-023-06261-8
+32,NP,N319K,N,319,K,Gabriel et al. PNAS 2005,,,,In Mice,,10.1073/pnas.0507415102
+33,NP,S345N,S,345,N,Herfst et al. Science 2012,,,,"with R99K and with HA: H110Y, T160A, Q226L, G228S; PB2: E627K; PB1: H99Y, I368V",,10.1126/science.1213362
+34,NP,R351K,R,351,K,Li et al. Vet. Microbiol. 2014; Su et al. Nat. Microbiol. 2021,,,,In Mice,,10.1016/j.vetmic.2014.06.018; 10.1038/s41564-021-00976-y
+35,NP,M352I,M,352,I,Zhao et al. Vet. Microbiol. 2016,,,,In Mice,,10.1016/j.vetmic.2016.02.027
+36,NP,I353V,I,353,V,Prokopyeva et al. Infect. Genet. Evol. 2016,,,,In Mice,,10.1016/j.meegid.2016.01.022
+37,NP,Q357L,Q,357,L,Kim et al. J. Gen. Virol. 2010,,,,with PB2 E627K,,10.1099/vir.0.018143-0
+38,NP,Q357K,Q,357,K,Zhu et al. Emerg. Microbes Infect. 2019,,,,,,10.1080/22221751.2019.1635873
+39,NP,V363I,V,363,I,Huang et al. Sci. Rep. 2017,,,,In Mice,,10.1038/s41598-017-10749-5
+40,NP,I373T,I,373,T,Otte et al. J. Virol. 2015,,,,In Mice,,10.1128/JVI.00665-15
+41,NP,D375N,D,375,N,Sakabe et al. Virus Res. 2011; Yu et al. Virology 2015,,,,In Mice,,10.1016/j.virusres.2011.03.022; 10.1016/j.virol.2014.11.031
+42,NP,N375D,N,375,D,Prokopyeva et al. Infect. Genet. Evol. 2016,,,,In Mice,,10.1016/j.meegid.2016.01.022
+43,NP,A428T,A,428,T,Mancera et al. PLoS One 2017,,,,In Mice,,10.1371/journal.pone.0175267
+44,NP,S433T,S,433,T,Park et al. J. Microbiol. 2015,,,,In Mice,,10.1007/s12275-015-5329-4
+45,NP,E434K,E,434,K,Sang et al. Sci. Rep. 2015,,,,,,10.1038/srep15928
+46,NP,G460R,G,460,R,Yao et al. Arch. Virol. 2013,,,,In Mice,,10.1007/s00705-012-1496-3
+47,NP,K470R,K,470,R,Chen et al. Front. Microbiol. 2017,,,,,,10.3389/fmicb.2017.01308
+48,NP,L479F,L,479,F,Zhang et al. Virol. J. 2011,,,,In Mice,,10.1186/1743-422X-8-42
+49,NP,D480N,D,480,N,Ping et al. PLoS One 2011; Brown et al. PNAS 2001,,,,In Mice,,10.1371/journal.pone.0021740; 10.1073/pnas.111165798
+50,NP,K492N,K,492,N,Wu et al. Vet. Microbiol. 2009,,,,In Mice,,10.1016/j.vetmic.2009.03.010
+51,NP,G494E,G,494,E,Wu et al. Vet. Microbiol. 2009,,,,In Mice,,10.1016/j.vetmic.2009.03.010
+52,NP,K48Q,K,48,Q,Dornfeld et al. J. Virol. 2019,,,,,,10.1128/jvi.00997-18
+53,NP,R98K,R,98,K,Dornfeld et al. J. Virol. 2019,,,,,With K48Q and R99K,10.1128/jvi.00997-18
+54,NP,S297F,S,297,F,Ninpan et al. Virus Res. 2017,,,,,,10.1016/j.virusres.2017.05.021
+55,NP,N52H,N,52,H,Fatima et al. Viruses 2019,,,,In Horses,,10.3390/v11121114
+56,NP,S34G,S,34,G,Fatima et al. Viruses 2019,,,,In Horses,,10.3390/v11121114
+57,NP,I41T,I,41,T,Ashenberg et al. PLoS Pathog. 2017,Minigenome,DMS,H1N1,,,10.1371/journal.ppat.1006288
+58,NP,Q399R,Q,399,R,Ashenberg et al. PLoS Pathog. 2017,Minigenome,DMS,H1N1,,,10.1371/journal.ppat.1006288
+59,NP,R102A,R,102,A,Ashenberg et al. PLoS Pathog. 2017,Minigenome,DMS,H1N1,,,10.1371/journal.ppat.1006288
+60,NP,I119M,I,119,M,Siegers et al. PLoS Pathog. 2023,,,H5N1,Neurotropic in Ferret,,10.1371/journal.ppat.1011214
+

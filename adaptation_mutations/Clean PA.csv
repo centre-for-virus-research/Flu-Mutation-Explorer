@@ -1,0 +1,97 @@
+,Segment,Mutation,WT,Position,Mutant,Paper..s.,Experimentally.Verified,How.was.the.mutation.discovered,Which.virus.,Notes,Extra.Notes,DOI
+1,PA,D3V,D,3,V,Liu et al. Arch. Virol. 2014,NA,,H9N2,In mice,,10.1007/s00705-014-2062-y
+2,PA,E18G,E,18,G,Slaine et al. Viruses 2018,NA,,H1N1pdm09,In mice,,10.3390/v10050272
+3,PA,M21I,M,21,I,Sakabe et al. Virus Res. 2011,NA,,pdmH1N1,In mice,,10.1016/j.virusres.2011.03.022
+4,PA,K22R,K,22,R,Song et al. J. Virol. 2009,NA,,H5N2,In mice,,10.1128/JVI.01373-09
+5,PA,D27G,D,27,G,Ping et al. PLoS One 2011,NA,,H3N2,In mice,,10.1371/journal.pone.0021740
+6,PA,F35S,F,35,S,Wu et al. Vet. Microbiol. 2009,NA,,H9N2,In mice,,10.1016/j.vetmic.2009.03.010
+7,PA,F35l,F,35,l,Seyer et al. J. Infect. Dis. 2012,NA,,pdmH1N1,In mice,,10.1093/infdis/jir716
+8,PA,H36N,H,36,N,Zhu et al. PLoS One 2012,NA,,pdm09H1N1,In mice,,10.1371/journal.pone.0033383
+9,PA,I38M,I,38,M,Tan et al. J. Virol. 2014,NA,,H6N6,In mice,,10.1128/JVI.01736-14
+10,PA,V44I,V,44,I,Yamaji et al. J. Virol. 2015,NA,,H5N1,"In mice - tested as V44I, V127A, C241Y, A343T, and I573V",,10.1128/JVI.03532-14
+11,PA,S49Y,S,49,Y,Guo et al. Vet. Res. 2023,NA,,H9N2,In mice,With PB2 S155N and PA D347G,10.1186/s13567-023-01221-6
+12,PA,F53V,F,53,V,Ainai et al. PLoS One 2015,NA,,pdmH1N1,In mice,,10.1371/journal.pone.0130208
+13,PA,S65Y,S,65,Y,Shinya et al. J. Gen. Virol. 2007,NA,,H7N7,In mice,,10.1099/vir.0.82411-0
+14,PA,A70V,A,70,V,Sakabe et al. Virus Res. 2011,NA,,pdmH1N1,In mice,,10.1016/j.virusres.2011.03.022
+15,PA,T85I,T,85,I,Bussey et al. J. Virol. 2011; Liu et al. Virus Genes 2016,NA,; Minigenome,H3N2; H7N9,In mice; ,,10.1128/JVI.00522-11; 10.1007/s11262-016-1311-4
+16,PA,T86I,T,86,I,Choi et al. Sci. Rep. 2017,NA,,H5N8,In mice,,10.1038/srep40667
+17,PA,M86V,M,86,V,Welkers et al. Emerg. Microbes Infect. 2019,NA,Minigenome,H5N1,,,10.1080/22221751.2019.1575700
+18,PA,I94V,I,94,V,Yu et al. Virology 2015,NA,,pdm09H1N1,In mice,,10.1016/j.virol.2014.11.031
+19,PA,I94L,I,94,L,Welkers et al. Emerg. Microbes Infect. 2019,NA,Minigenome,H5N1,,,10.1080/22221751.2019.1575700
+20,PA,T97I,T,97,I,Wu et al. Arch. Virol. 2016; Yu et al. Vet. Microbiol. 2014; Song et al. J. Virol. 2009; Zhao et al. Vet. Microbiol. 2016; Nam et al. Arch. Virol. 2017; Zhang et al. Front. Microbiol. 2017; Choi et al. Sci. Rep. 2017; Kamiki et al. Viruses 2018; Liang et al. Viruses 2022,NA,,H10N7; H6N1; H5N2; H7N9; H5N6; H5N8; H9N2; H3N8,In mice,,10.1007/s00705-015-2722-6; 10.1016/j.vetmic.2014.09.032; 10.1128/JVI.01373-09; 10.1016/j.vetmic.2016.02.027; 10.1007/s00705-017-3451-9; 10.3389/fmicb.2017.01763; 10.1038/srep40667; 10.3390/v10110653; 10.3390/v14051097
+21,PA,V100I,V,100,I,Meng et al. PNAS 2022; Welkers et al. Emerg. Microbes Infect. 2019,NA,; Minigenome,; H5N1,In mice; ,,10.1073/pnas.2203919119; 10.1080/22221751.2019.1575700
+22,PA,H103P,H,103,P,Zhao et al. Virology 2016,NA,,H7N7,In mice,,10.1016/j.virol.2016.08.004
+23,PA,V120I,V,120,I,Meng et al. PNAS 2022,NA,,,In mice,,10.1073/pnas.2203919119
+24,PA,L122V,L,122,V,Yang et al. J. Virol. 2024,NA,,H1n1,In mice,With V100I,10.1128/jvi.01293-24
+25,PA,V127A,V,127,A,Yamaji et al. J. Virol. 2015,NA,,H5N1,"In mice - tested as V44I, V127A, C241Y, A343T, and I573V",,10.1128/JVI.03532-14
+26,PA,V127I,V,127,I,Lycett et al. J. Virol. 2009,NA,,H5N1,,,10.1128/jvi.00608-09
+27,PA,E133G,E,133,G,Brown et al. PNAS 2001,NA,,H3N2,In mice,,10.1073/pnas.111165798
+28,PA,M155I,M,155,I,Yao et al. Arch. Virol. 2013,NA,,H6N6,In mice,,10.1007/s00705-012-1496-3
+29,PA,M155T,M,155,T,Song et al. J. Virol. 2009,NA,,H5N2,In mice,,10.1128/JVI.01373-09
+30,PA,V160D,V,160,D,Park et al. J. Microbiol. 2015,NA,,H9N2,In mice,,10.1007/s12275-015-5329-4
+31,PA,T162A,T,162,A,Wu et al. Vet. Microbiol. 2009,NA,,H9N2,In mice,,10.1016/j.vetmic.2009.03.010
+32,PA,K185R,K,185,R,Fan et al. J. Virol. 2014,NA,Minigenome,H5N1,In mice,,10.1128/jvi.01081-14
+33,PA,T186I,T,186,I,Bussey et al. J. Virol. 2011,NA,,H3N2,In mice,,10.1128/JVI.00522-11
+34,PA,G186S,G,186,S,Liu et al. Virus Genes 2016,NA,Minigenome,H7N9,,,10.1007/s11262-016-1311-4
+35,PA,S190P,S,190,P,Hu et al. Virology 2017,NA,,H7N3,In mice,,10.1016/j.virol.2016.11.008 
+36,PA,R204K,R,204,K,Liu et al. Virus Genes 2016,NA,Minigenome,H7N9,,,10.1007/s11262-016-1311-4
+37,PA,R213K,R,213,K,Liu et al. Virus Genes 2016,NA,Minigenome,H7N9,,,10.1007/s11262-016-1311-4
+38,PA,D216N,D,216,N,Song et al. J. Virol. 2009,NA,,H5N2,In mice,,10.1128/JVI.01373-09
+39,PA,S224P,S,224,P,Song et al. Sci. Rep. 2015,NA,,H5N1,In mice,With N383D,10.1038/srep10510
+40,PA,S225R,S,225,R,Liu et al. Arch. Virol. 2014,NA,,H9N2,In mice,,10.1007/s00705-014-2062-y
+41,PA,V241A,V,241,A,Yamaji et al. J. Virol. 2015,NA,,H5N1,"In mice - tested as V44I, V127A, C241Y, A343T, and I573V",,10.1128/JVI.03532-14
+42,PA,S247A,S,247,A,Zhang et al. Virol. J. 2011,NA,,H10N8,In mice,,10.1186/1743-422X-8-42
+43,PA,F277S,F,277,S,Mei et al. Infect. Genet. Evol. 2016,NA,,H10N8,In mice,,10.1016/j.meegid.2015.10.016
+44,PA,C278Q,C,278,Q,Mei et al. Infect. Genet. Evol. 2016,NA,,H10N8,In mice,,10.1016/j.meegid.2015.10.016
+45,PA,N291S,N,291,S,Zhang et al. Infect. Genet. Evol. 2011,NA,,H9N2,In mice,,10.1016/j.meegid.2011.07.025
+46,PA,L295P,L,295,P,Ilyushina et al. J. Virol. 2010,NA,,pdmH1N1,In mice,,10.1128/JVI.00159-10
+47,PA,M311I,M,311,I,Guo et al. Vet. Microbiol. 2023,NA,,,,,10.1016/j.vetmic.2023.109760
+48,PA,N321K,N,321,K,Elderfield et al. J. Virol. 2014; Meng et al. PNAS 2022,NA,,pdm09H1N1; ,In mice,,10.1128/JVI.01636-14; 10.1073/pnas.2203919119
+49,PA,K328R,K,328,R,Zhao et al. Vet. Microbiol. 2016,NA,,H7N9,In mice,,10.1016/j.vetmic.2016.02.027
+50,PA,I330V,I,330,V,Meng et al. PNAS 2022,NA,,,In mice,,10.1073/pnas.2203919119
+51,PA,P332T,P,332,T,Zhao et al. Vet. Microbiol. 2016,NA,,H7N9,In mice,,10.1016/j.vetmic.2016.02.027
+52,PA,L336M,L,336,M,Bussey et al. J. Virol. 2011; Welkers et al. Emerg. Microbes Infect. 2019,NA,; Minigenome,H3N2; H5N1,In mice; ,,10.1128/JVI.00522-11; 10.1080/22221751.2019.1575700
+53,PA,A343T,A,343,T,Peng et al. Arch. Virol. 2016; Yamaji et al. J. Virol. 2015; Peng et al. Front. Microbiol. 2018,NA,,H5N6; H5N1,"In mice; In mice - tested as V44I, V127A, C241Y, A343T, and I573V",,10.1007/s00705-016-2826-7; 10.1128/JVI.03532-14; 10.3389/fmicb.2018.00453
+54,PA,A343S,A,343,S,Guo et al. Vet. Microbiol. 2023; Zhong et al. J. Virol. 2018,NA,,; H5N1,; In mice,,10.1016/j.vetmic.2023.109760; 10.1128/JVI.01557-17
+55,PA,D347N,D,347,N,Wu et al. Vet. Microbiol. 2009,NA,,H9N2,In mice,,10.1016/j.vetmic.2009.03.010
+56,PA,D347G,D,347,G,Chan et al. Viruses 2020; Guo et al. Vet. Res. 2023,NA,,; H9N2,In mice,; With PB2 S155N and PA S49Y,10.3390/v12010065; 10.1186/s13567-023-01221-6
+57,PA,D347E,D,347,E,Zhong et al. J. Virol. 2018,NA,,H5N1,In mice,,10.1128/JVI.01557-17
+58,PA,E349K,E,349,K,Zhang et al. Infect. Genet. Evol. 2011,NA,,H9N2,In mice,,10.1016/j.meegid.2011.07.025
+59,PA,E349G,E,349,G,Rolling et al. J. Virol. 2009; Slaine et al. Viruses 2018,NA,,PR8; H1N1pdm09,In mice,,10.1128/jvi.00212-09; 10.3390/v10050272
+60,PA,I353R,I,353,R,Hu et al. J. Virol. 2013,NA,,H5N1,In mice,,10.1128/JVI.02891-12
+61,PA,K356R,K,356,R,Xu et al. J. Virol. 2016,NA,,H9N2/H7N9,In mice,,10.1128/JVI.00883-16
+62,PA,K362R,K,362,R,Liu et al. Virus Genes 2016,NA,Minigenome,H7N9,,,10.1007/s11262-016-1311-4
+63,PA,N383D,N,383,D,Song et al. Sci. Rep. 2015,NA,,H5N1,In mice,With S224P,10.1038/srep10510
+64,PA,N388G,N,388,G,Liu et al. Virus Genes 2016,NA,Minigenome,H7N9,,,10.1007/s11262-016-1311-4
+65,PA,E399K,E,399,K,Mancera et al. PLoS One 2017,NA,,H9N2,In mice,,10.1371/journal.pone.0175267
+66,PA,P400Q,P,400,Q,Hu et al. Virology 2017,NA,,H7N3,In mice,,10.1016/j.virol.2016.11.008 
+67,PA,I407V,I,407,V,Liu et al. Virus Genes 2016,NA,Minigenome,H7N9,,,10.1007/s11262-016-1311-4
+68,PA,M469L,M,469,L,Welkers et al. Emerg. Microbes Infect. 2019,NA,Minigenome,H5N1,,,10.1080/22221751.2019.1575700
+69,PA,K488E,K,488,E,Mancera et al. PLoS One 2017,NA,,H9N2,In mice,,10.1371/journal.pone.0175267
+70,PA,C489S,C,489,S,Mancera et al. PLoS One 2017,NA,,H9N2,In mice,,10.1371/journal.pone.0175267
+71,PA,K497R,K,497,R,Welkers et al. Emerg. Microbes Infect. 2019,NA,Minigenome,H5N1,,,10.1080/22221751.2019.1575700
+72,PA,L549I,L,549,I,Park et al. J. Microbiol. 2015,NA,,H9N2,In mice,,10.1007/s12275-015-5329-4
+73,PA,I550L,I,550,L,Rolling et al. J. Virol. 2009,NA,,,,,10.1128/jvi.00212-09
+74,PA,L550M,L,550,M,Chen et al. Vet. Microbiol. 2015,NA,,H7N7,In mice,,10.1016/j.vetmic.2015.02.016
+75,PA,T552S,T,552,S,Mehle et al. J. Virol. 2012,NA,,,,,10.1128/JVI.06203-11
+76,PA,I554V,I,554,V,Li et al. Vet. Microbiol. 2014,NA,,H5N2 (H9N2 7 genes),In mice,,10.1016/j.vetmic.2014.06.018
+77,PA,Q556R,Q,556,R,Ping et al. PLoS One 2011; Brown et al. PNAS 2001; Zhao et al. Vet. Microbiol. 2016; Choi et al. Sci. Rep. 2017; Xiang et al. J. Infect. Dis. 2018,NA,,H3N2; H7N9; H5N8; ,In mice,,10.1371/journal.pone.0021740; 10.1073/pnas.111165798; 10.1016/j.vetmic.2016.02.027; 10.1038/srep40667; 10.1093/infdis/jiy082
+78,PA,I573V,I,573,V,Yamaji et al. J. Virol. 2015,NA,,H5N1,"In mice - tested as V44I, V127A, C241Y, A343T, and I573V",,10.1128/JVI.03532-14
+79,PA,K605R,K,605,R,Zhang et al. Infect. Genet. Evol. 2011,NA,,H9N2,In mice,,10.1016/j.meegid.2011.07.025
+80,PA,E610G,E,610,G,Ping et al. PLoS One 2011,NA,,H3N2,In mice,,10.1371/journal.pone.0021740
+81,PA,F611S,F,611,S,Zhang et al. Virol. J. 2011; Mei et al. Infect. Genet. Evol. 2016,NA,,H10N8,In mice,,10.1186/1743-422X-8-42; 10.1016/j.meegid.2015.10.016
+82,PA,K615N,K,615,N,Gabriel et al. PNAS 2005,NA,,H7N7,In mice,,10.1073/pnas.0507415102
+83,PA,S616P,S,616,P,Park et al. J. Microbiol. 2015; Sakabe et al. Virus Res. 2011,NA,,H9N2; pdmH1N1,In mice,,10.1007/s12275-015-5329-4; 10.1016/j.virusres.2011.03.022
+84,PA,G622R,G,622,R,Yao et al. Arch. Virol. 2013,NA,,H6N6,In mice,,10.1007/s00705-012-1496-3
+85,PA,A639T,A,639,T,Meng et al. PNAS 2022,NA,,,In mice,,10.1073/pnas.2203919119
+86,PA,L653P,L,653,P,Mei et al. Infect. Genet. Evol. 2016,NA,,H10N8,In mice,,10.1016/j.meegid.2015.10.016
+87,PA,L659S,L,659,S,Zhao et al. Virology 2016,NA,,H7N7,In mice,,10.1016/j.virol.2016.08.004
+88,PA,K673R,K,673,R,Ping et al. PLoS One 2011,NA,,H3N2,In mice,,10.1371/journal.pone.0021740
+89,PA,E684G,E,684,G,Lee et al. Vet. Microbiol. 2018,NA,,H9N2,In mice,H9N2 PA + PR8,10.1016/j.vetmic.2018.05.026
+90,PA,K142N,K,142,N,Kim et al. J. Gen. Virol. 2010,NA,,,In mice,With 627K increased pathogenicity in mice,10.1099/vir.0.018143-0
+91,PA,K142E,K,142,E,Kim et al. J. Gen. Virol. 2010; Mänz et al. Nat. Commun. 2012,NA,,; H5N1,In mice; ,With 627K increased pathogenicity in mice; ,10.1099/vir.0.018143-0; 10.1038/ncomms1804
+92,PA,S421I,S,421,I,Kim et al. J. Gen. Virol. 2010,NA,,,In mice,With 627K increased pathogenicity in mice,10.1099/vir.0.018143-0
+93,PA,K142R,K,142,R,Mänz et al. Nat. Commun. 2012,NA,,H5N1,,,10.1038/ncomms1804
+94,PA,I129T,I,129,T,Wei et al. J. Virol. 2014,NA,,,in pigs,"With PB1 A469T, PA 1129T, NA N329D, NS1 N205K, and NEP T48N",10.1128/jvi.01679-14
+95,PA,N444D,N,444,D,Wang et al. Vet. Res. 2024,NA,,H7N9,In mice,With E627K,10.1186/s13567-024-01342-6
+
