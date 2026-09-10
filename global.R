@@ -139,15 +139,26 @@ ref_seqs <<-
   purrr::set_names(file_path_sans_ext(names(.))) # set names removing file extension
 
 ref_set <<- read_tsv("BLAST_segment_recognizer/ref_set.tsv", col_names = c("accession_version", "segment")) # reference accessions for each segment
-status <<- 
-  read_tsv("current_version/IAV_DB_summary.log", col_names = FALSE, n_max = 2) #%>%  # status of each tree file
-  #select(-X3)
 
-status_segments <<- 
-  read_tsv("current_version/IAV_DB_summary.log", col_names = TRUE, skip = 2, 
+# summary log has a variable number of key/value preamble lines (last_update,
+# total_GenBank_sequences, total_curated_sequences, ...) followed by the
+# per-segment table, so locate the table header rather than assuming its position
+summary_log_lines <- read_lines("current_version/IAV_DB_summary.log")
+segment_header_row <- which(str_detect(summary_log_lines, "^segment\\t"))[1]
+if (is.na(segment_header_row)) {
+  stop("Could not find the 'segment' header row in current_version/IAV_DB_summary.log")
+}
+
+status <<-
+  read_tsv(I(summary_log_lines[seq_len(segment_header_row - 1)]),
+           col_names = FALSE, show_col_types = FALSE) # summary key/value preamble
+
+status_segments <<-
+  read_tsv(I(summary_log_lines[seq(segment_header_row, length(summary_log_lines))]),
+           col_names = TRUE,
            col_types = list(segment = col_character(),
                             total = col_integer(),
-                            clustered = col_integer())) %>%  # status of each tree file 
+                            clustered = col_integer())) %>%  # status of each tree file
   mutate(segment = case_when(
     segment == "Segment_1" ~ "PB2",
     segment == "Segment_2" ~ "PB1",
