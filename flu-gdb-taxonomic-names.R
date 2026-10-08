@@ -1,16 +1,17 @@
 #!/usr/bin/env Rscript
 
 # flu_gdb_taxonomic_names.R ----------------------------------------------------
-# v1.1 – 2026-03-11
+# v1.2 – 2026-10-02
 # Standalone script to generate taxonomic_names.csv from GenBank matrix.
-# Runs non-interactively — ambiguous NCBI matches are resolved by selecting
-# the first result automatically and logged to flu_gdb_app_data/ambiguous_hosts.log.
+# Hosts are classified from the matrix tax_id; hosts left without
+# class/order are logged to flu_gdb_inputs/unclassified_hosts.txt.
 #
 # Required inputs (relative to ROOT_DIR):
-#   1) current_version/IAV_DB_matrix_filtered.tsv
+#   1) current_version/IAV_DB_matrix.tsv
 #
 # Output:
-#   flu_gdb_app_data/taxonomic_names.csv
+#   flu_gdb_inputs/taxonomic_names.csv
+#   flu_gdb_inputs/unclassified_hosts.txt hosts left without class/order
 
 # Setup ------------------------------------------------------------------------
 options(warn = 1, stringsAsFactors = FALSE)
@@ -21,9 +22,10 @@ library(janitor)
 library(taxize)
 
 ## Paths -----------------------------------------------------------------------
-ROOT_DIR    <- "/home/laura/IAV_DB/Flu-Mutation-Explorer/"
-DATA_DIR    <- file.path(ROOT_DIR, "flu_gdb_app_data")
-MATRIX_FILE <- file.path(ROOT_DIR, "current_version", "IAV_DB_matrix_filtered.tsv")
+ROOT_DIR <- getwd()
+
+INPUT_DIR   <- file.path(ROOT_DIR, "flu_gdb_inputs") # input folder of flu-gdb-genbank.R
+MATRIX_FILE <- file.path(ROOT_DIR, "current_version", "IAV_DB_matrix.tsv")
 
 stopifnot(file.exists(MATRIX_FILE))
 
@@ -31,81 +33,88 @@ stopifnot(file.exists(MATRIX_FILE))
 genbank_metadata <- readr::read_tsv(MATRIX_FILE, show_col_types = FALSE) %>%
   janitor::clean_names()
 
-# Extract unique host names ----------------------------------------------------
+# Extract unique host names and their tax_id -----------------------------------
 hosts <- genbank_metadata %>%
-  distinct(host_validated) %>%
+  distinct(host_validated, tax_id) %>%
+  mutate(tax_id = as.character(as.integer(tax_id))) %>% # avoid "1e+05"
   arrange(host_validated)
 
-message("Querying NCBI for ", nrow(hosts), " unique host names...")
-
-# Resolve UIDs non-interactively -----------------------------------------------
-options(taxize_api_sleep = 0.4)
-uids <- taxize::get_uid(hosts$host_validated, ask = FALSE, messages = FALSE)
-
-# Log ambiguous cases (first result selected automatically) --------------------
-ambiguous_idx <- attr(uids, "match") == "NA due to ask=FALSE & > 1 result"
-if (any(ambiguous_idx)) {
-  log_file <- file.path(DATA_DIR, "ambiguous_hosts.txt")
-  writeLines(
-    c(
-      paste("# Ambiguous hosts –", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
-      paste("# First NCBI result selected automatically for each"),
-      "",
-      hosts$host_validated[ambiguous_idx]
-    ),
-    con = log_file
-  )
-  message("Ambiguous hosts (first result selected): ",
-    paste(hosts$host_validated[ambiguous_idx], collapse = ", "))
-  message("Full list logged to: ", log_file)
+multiple_ids <- hosts %>% dplyr::count(host_validated) %>% dplyr::filter(n > 1)
+if (nrow(multiple_ids) > 0) {
+  warning("Host(s) with more than one tax_id (first kept): ",
+          paste(multiple_ids$host_validated, collapse = ", "), call. = FALSE)
+  hosts <- hosts %>% distinct(host_validated, .keep_all = TRUE)
 }
 
-# Manual UID overrides for known problematic queries ---------------------------
-# (check ambiguous_hosts.txt) 
+taxids <- hosts %>% dplyr::filter(!is.na(tax_id)) %>% distinct(tax_id) %>% pull(tax_id)
 
-uid_overrides <- c(
-  "Snow goose"              = "8849",    # Anser caerulescens — species over subspecies
-  "environmental samples"   = "61964",
-  "greater flamingo"        = "435638",
-  "lesser black-backed gull"= "8915",    # Larus fuscus — species over subspecies
-  "mink"                    = "452646",
-  "pigs"                    = "9821"
-)
-override_idx <- hosts$host_validated %in% names(uid_overrides)
-uids[override_idx] <- uid_overrides[hosts$host_validated[override_idx]]
+message("Querying NCBI classification for ", length(taxids), " tax_id(s) (",
+        nrow(hosts), " unique host names)...")
 
-# Get classification from UIDs -------------------------------------------------
-cls <- taxize::classification(uids, db = "ncbi", messages = FALSE)
+# Get classification from tax_id -----------------------------------------------
+options(taxize_api_sleep = 0.4)
+cls <- taxize::classification(taxids, db = "ncbi", messages = FALSE)
 
 # Extract class and order ------------------------------------------------------
-taxonomic_names <- purrr::map2_dfr(cls, hosts$host_validated, function(x, host) {
+ranks <- purrr::map2_dfr(cls, names(cls), function(x, id) {
   if (is.null(x) || inherits(x, "logical") || nrow(x) == 0) {
-    return(tibble(db = "ncbi", query = host, class = NA_character_, order = NA_character_))
+    return(tibble(tax_id = id, class = NA_character_, order = NA_character_))
   }
   tibble(
-    db    = "ncbi",
-    query = host,
-    class = x$name[x$rank == "class"][1],
-    order = x$name[x$rank == "order"][1]
+    tax_id = id,
+    class  = x$name[x$rank == "class"][1],
+    order  = x$name[x$rank == "order"][1]
   )
 })
 
+taxonomic_names <- hosts %>%
+  left_join(ranks, by = "tax_id") %>%
+  transmute(db = "ncbi", query = host_validated, class, order)
 
 # Correct known mislabels ------------------------------------------------------
+# matrix tax_id points to insects for "common gull" and "peacock", and to the virus
+# for "unidentified influenza virus"
 taxonomic_names <- taxonomic_names %>%
   mutate(
     order = case_when(
-      query == "yellow-legged gull"           ~ "Charadriiformes",
       query == "common gull"                  ~ "Charadriiformes",
       query == "peacock"                      ~ "Galliformes",
       query == "unidentified influenza virus"  ~ NA_character_,
+      query == "environmental samples"         ~ "Environment",
       TRUE                                    ~ order
     ),
     class = case_when(
-      query %in% c("yellow-legged gull", "common gull", "peacock") ~ "Aves",
-      query == "unidentified influenza virus"                       ~ NA_character_,
-      TRUE                                                          ~ class
+      query %in% c("common gull", "peacock") ~ "Aves",
+      query == "unidentified influenza virus" ~ NA_character_,
+      query == "environmental samples"        ~ "Environment",
+      TRUE                                    ~ class
     )
+  )
+
+# Log hosts left without classification ----------------------------------------
+unclassified <- taxonomic_names %>%
+  dplyr::filter(is.na(class) & is.na(order)) %>%
+  left_join(hosts, by = c("query" = "host_validated"))
+
+if (nrow(unclassified) > 0) {
+  log_file <- file.path(INPUT_DIR, "unclassified_hosts.txt")
+  writeLines(
+    c(
+      paste("# Unclassified hosts –", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
+      "# host_validated <tab> tax_id",
+      "",
+      paste(unclassified$query, unclassified$tax_id, sep = "\t")
+    ),
+    con = log_file
+  )
+  message("Unclassified hosts: ", nrow(unclassified), " - logged to: ", log_file)
+}
+
+# Missing class/order as "Unknown", like host_group (no NA state in the app)
+taxonomic_names <- taxonomic_names %>%
+  mutate(
+    class = replace_na(class, "Unknown"),
+    order = replace_na(order, "Unknown")
   )
 
 # Assign host_group ------------------------------------------------------------
@@ -125,6 +134,6 @@ taxonomic_names <- taxonomic_names %>%
 
 
 # Save -------------------------------------------------------------------------
-out_file <- file.path(DATA_DIR, "taxonomic_names.csv")
+out_file <- file.path(INPUT_DIR, "taxonomic_names.csv")
 taxonomic_names %>% readr::write_csv(out_file)
 message("Saved: ", out_file)
