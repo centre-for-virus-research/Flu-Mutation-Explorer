@@ -42,16 +42,15 @@ AA_PALETTE <- c(
   "J" = "#C0C0C0"
 )
 
-# Function to get palette for JS (RGB arrays for Taxonium)
+# The palette as the RGB arrays Taxonium expects
 get_aa_palette_js <- function() {
-  # Convert hex to RGB list
   palette_rgb <- lapply(AA_PALETTE, function(hex) {
     as.vector(col2rgb(hex))
   })
   jsonlite::toJSON(palette_rgb, auto_unbox = TRUE)
 }
 
-# Function to get sorted amino acid levels
+# The amino acid levels, in palette order
 get_aa_levels <- function() {
   names(AA_PALETTE)
 }

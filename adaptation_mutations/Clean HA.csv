@@ -1,4 +1,4 @@
-,Segment,Mutation,Mutation.H5.numbering,WT,Position,Mutant,Paper..s.,Experimentally.Verified,How.was.the.mutation.discovered,Which.virus.,Notes,DOI
+,Segment,Mutation.H3.numbering,Mutation.H5.numbering,WT,Position,Mutation,Paper..s.,Experimentally.Verified,How.was.the.mutation.discovered,Which.virus.,Notes,DOI
 1,HA,L-1N,L-11N,L,-1,N,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
 2,HA,V5T,V-6T,V,5,T,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,"Increases alpha 2,6 binding compared to alpha 2,3",10.1371/journal.pbio.3002916
 3,HA,Y17M,Y7M,Y,17,M,Dadonaite et al. PLoS Biol. 2024,NA,Deep Scanning Mutagenesis,H5N1,Increases pH stability in HA,10.1371/journal.pbio.3002916

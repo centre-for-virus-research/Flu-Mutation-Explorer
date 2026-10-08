@@ -1,6 +1,6 @@
 ## Overview
 
-The Flu-Mutation Explorer project provides influenza A virus phylogenies and associated metadata, plus a database of mammalian adaptation amino acid replacements. Phylogenies are created by clustering Genbank sequences for the 8 genome segments and selecting a representative sequence per cluster, which are then used to construct phylogenetic trees. The *Home* tab provides a summary table of the numbers of Genbank sequences and representative clusters for each segment.
+The Flu Mutation Explorer project provides influenza A virus phylogenies and associated metadata, plus a database of mammalian adaptation amino acid replacements. Phylogenies are created by clustering Genbank sequences for the 8 genome segments and selecting a representative sequence per cluster, which are then used to construct phylogenetic trees. The *Home* tab provides a summary table of the numbers of Genbank sequences and representative clusters for each segment.
 
 ## Tree
 

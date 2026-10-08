@@ -1,33 +1,92 @@
 default:
-  app_name: "Flu-GDB Mutation Explorer"
+  app_name: "Flu Mutation Explorer"
   paths:
     data:
-      discarded: "discarded.rds"
-      transposed: "transposed.rds"
-      metadata: "metadata_clusters_segments.rds"
-      trees: "current_version/clusters_trees/"
-      blast_db: "current_version/blastdb/"
-      ref_set_aa: "BLAST_segment_recognizer/ref_set_AA"
-      ref_h3_h5: "Ref_H3_H5/Ref_H3_H5"
+      # Everything the app reads besides the trees and the log is written into
+      # flu_gdb_app_data/ by the pipeline - the single output folder - rather than into
+      # the repository root. The keys below keep the names the code has always used:
+      #   discarded  -> product_positions.rds   (per-sequence gapless positions, all 12 products)
+      #   transposed -> product_columns.rds     (the same data, per alignment column)
+      #   metadata   -> sequence_metadata.rds   (one row per cluster representative)
+      # Both position files are keyed by product - seg1, seg2_PB1_F2, ... seg8_NEP - so the
+      # secondary reading frames need no separate file.
+      discarded: "flu_gdb_app_data/product_positions.rds"
+      transposed: "flu_gdb_app_data/product_columns.rds"
+      metadata: "flu_gdb_app_data/sequence_metadata.rds"
+      # One row per residue of every reference strain in every product, with the alignment
+      # column it sits in. The key for converting a Position search between references on
+      # the Tree tab. Tree tab only: Adaptation Mutations and Batch Screening keep the
+      # H3/H5 numbering. Optional: without it the Position box keeps its number when the
+      # reference changes.
+      reference_numbering: "flu_gdb_app_data/reference_numbering.rds"
+      # Curated reference strains, per segment and subtype. Two jobs: the contents of
+      # the Tree tab's Subtype dropdown, and the accession each product's adaptation
+      # mutation positions are numbered against - see R/numbering_reference.R.
+      # Replaces cluster_reference.rds, which is no longer generated.
+      subtype_references: "flu_gdb_app_data/subtype_references.rds"
+      # One FASTA holding the canonical protein for each product, a record per product key
+      # (seg1, seg7_M2, seg2_PB1_F2, ...) plus seg4_h5 for HA's second numbering scheme.
+      # It is the FASTA the BLAST database below is built from, so the protein a query is
+      # aligned against and the protein positions are numbered against are the same
+      # sequence by construction.
+      reference_proteins: "flu_gdb_app_data/reference_proteins_db.fasta"
+      # BLAST database over those same proteins, keyed by product rather than by
+      # accession, so a hit's subject id is the product. Supplied ready-made in
+      # flu_gdb_app_data/master_blastdb/ (same name and title as before, no -parse_seqids);
+      # stale/reference_proteins.R, which used to build it alongside the FASTA files, is
+      # retired, so rebuild the two together by hand if the references change.
+      #
+      # Required. It is the only reference the app searches to identify a query: Batch
+      # Screening reads the product off an HSP, and the Tree and Adaptation Mutations tabs
+      # go through blast_query_segment() in R/query_segment.R, which reads the segment, the
+      # product and - for HA - the numbering scheme off the same hit. It replaced two
+      # databases that answered parts of that question separately:
+      #
+      #   BLAST_segment_recognizer/ref_set_AA  748 proteins, segment and product only.
+      #     Against it as a labelled panel these 13 references name the product correctly
+      #     for 748/748 full-length queries and 608/608 200 aa fragments, and never name
+      #     the wrong segment at any length tested.
+      #   Ref_H3_H5/Ref_H3_H5  the two HA numbering references, which are the same two
+      #     strains as this database's seg4 and seg4_h5 records and agreed with them on
+      #     all 135 HA references in the panel.
+      #
+      # Both are still in the repository, and ref_set_AA.fasta with ref_set.tsv is the
+      # labelled panel those numbers come from - keep them for testing a rebuild.
+      reference_protein_db: "flu_gdb_app_data/master_blastdb/reference_proteins_db"
+      # The Home tab's database summary: three header lines (last update, GenBank total,
+      # curated total) then a per-segment table of totals and clustered counts.
+      status: "flu_gdb_app_data/IAV_DB_summary.log"
+      cluster_composition: "flu_gdb_app_data/cluster_host_composition.rds"
+      # Amino acid counts per alignment column, over every sequence in the database,
+      # for the Adaptation Mutations "All sequences" bar plot. Optional: without it
+      # the app still runs and offers the cluster representative plot alone.
+      # Built by alignment_column_counts.R.
+      alignment_column_counts: "flu_gdb_app_data/alignment_column_counts.rds"
+      # Amino acid counts per alignment column across the members of each cluster,
+      # for the residue breakdown in the tree tip pop-up after a Position search.
+      # Optional: without it the pop-up shows the representative's own residue and
+      # no breakdown. Built by cluster_column_residues.R.
+      cluster_residues: "flu_gdb_app_data/cluster_column_residues.rds"
+      trees: "flu_gdb_app_data/trees/"
+      # Per-segment databases over the whole curated set, sgt_1 to sgt_8, for the Tree
+      # tab's search: the one question the reference proteins cannot answer, since it
+      # wants the neighbouring sequences themselves and their metadata, not a product.
+      blast_db: "flu_gdb_app_data/blastdb/"
+    # The curated adaptation mutation catalogues, one spreadsheet per segment, keyed by
+    # the parent segment rather than by product: the M and NS files each cover two
+    # reading frames and are split on their segment column in global.R.
     adaptation_mutations:
-      seg1: "Clean PB2.csv"
-      seg2: "Clean PB1.csv"
-      seg3: "Clean PA.csv"
-      seg4: "Clean HA.csv"
-      seg5: "Clean NP.csv"
-      seg6: "Clean NA.csv"
-      seg7: "Clean M.csv"
-      seg8: "Clean NS.csv"
-  
-  # Reference sequences for "View" mode
-  # Updated to use sequences that actually exist in discarded.rds
-  references:
-    turkey:
-      seg1: "NC_007373"      # Was EU636689 (not found) - using NC reference
-      seg2: "EU636690"       # VERIFIED - exists in data
-      seg3: "NC_007371"      # Was EU636691 (not found) - using NC reference  
-      seg4: "KX121222"       # HA uses special logic, but this exists for fallback
-      seg5: "MN088743"       # Was CY015122 (not found) - using first available
-      seg6: "GU052512"       # VERIFIED - exists in data (also NC_007361 available)
-      seg7: "NC_007367"      # Was EU636695 (not found) - using NC reference
-      seg8: "CY045251"       # Was EU636696 (not found) - using first available
+      seg1: "adaptation_mutations/Clean PB2.csv"
+      seg2: "adaptation_mutations/Clean PB1.csv"
+      seg3: "adaptation_mutations/Clean PA.csv"
+      seg4: "adaptation_mutations/Clean HA.csv"
+      seg5: "adaptation_mutations/Clean NP.csv"
+      seg6: "adaptation_mutations/Clean NA.csv"
+      seg7: "adaptation_mutations/Clean M.csv"
+      seg8: "adaptation_mutations/Clean NS.csv"
+
+  blast:
+    # Most hits listed in the BLAST hits table. The search itself is left at its
+    # own default, and the best max_hits by E-value are taken from what it
+    # returns - see the comment at the predict() call in app.R.
+    max_hits: 100

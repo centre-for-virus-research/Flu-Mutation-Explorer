@@ -1,3 +1,5 @@
+/* Height of the tree box. Drag the bottom edge to resize it in the browser; this is the
+   height it opens at. */
 #taxonium-container {
   height: 70vh;
   resize: vertical;
@@ -6,7 +8,15 @@
   margin-bottom: 1rem;
 }
 
-#app-taxoniumComponent {
+/* The Taxonium component fills that box.
+
+   Selected by its place in the container rather than by id. This was
+   #app-taxoniumComponent, which stopped matching when the Tree tab became a module: the
+   output id gained the module's namespace and is now app-tree-taxoniumComponent. With
+   nothing setting its height the component collapsed to its intrinsic size, so the tree
+   drew short inside a container that was still 70vh. Nothing here depends on the
+   namespace, so a further move cannot break it again. */
+#taxonium-container > .react-container {
     height: calc(100% - 1rem);
 }
 
@@ -34,4 +44,52 @@ h1, h2, h3, h4, h5, h6 {
 #taxonium-container a {
   color: inherit;
   text-decoration: inherit;
+}
+
+/* Space each section in about.md off from the one above it. Bootstrap's heading margins
+   are close to the paragraph spacing, so the headings read as part of the running text;
+   these give the break enough room to be seen, in proportion to the heading's level.
+   Written here rather than as <br> in the markdown so that a section added later is
+   spaced without anyone having to remember to do it. */
+.about-md h2 {
+  margin-top: 2.5rem;
+}
+
+.about-md h3 {
+  margin-top: 2rem;
+}
+
+.about-md h4 {
+  margin-top: 1.5rem;
+}
+
+/* Tables written as markdown in about.md come through includeMarkdown() with no class,
+   so Bootstrap leaves them unruled and unpadded. These rules give them borders and
+   breathing room, and hold the reference-strain table - eleven columns of accessions -
+   within the panel: it is set smaller and scrolls sideways on a narrow window rather
+   than pushing the rest of the page wide. */
+.about-md table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.about-md :is(th, td) {
+  border: 1px solid #ddd;
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.about-md thead th {
+  background-color: #f5f5f5;
+}
+
+.about-md tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.about-md .table-scroll {
+  overflow-x: auto;
 }

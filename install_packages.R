@@ -5,6 +5,7 @@ cat("Installing CRAN packages...\n")
 install.packages(c(
   "shiny",
   "shiny.react",
+  "shinyjs",
   "jsonlite",
   "tidyverse",
   "magrittr",
@@ -16,9 +17,8 @@ install.packages(c(
   "config",
   "logger",
   "ape",
-  "rBLAST",
-  "tools",
-  "readxl"
+  "readxl",
+  "markdown"
 ), repos = "https://cloud.r-project.org")
 
 cat("\nInstalling Bioconductor packages...\n")
@@ -27,7 +27,8 @@ if (!require("BiocManager", quietly = TRUE))
 
 BiocManager::install(c(
   "Biostrings",
-  "pwalign"
+  "pwalign",
+  "rBLAST"
 ))
 
 cat("\nPackage installation complete!\n")
