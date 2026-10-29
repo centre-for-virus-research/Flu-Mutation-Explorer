@@ -941,7 +941,7 @@ adaptation_server <- function(id, show = reactive(NULL), reset = reactive(NULL))
                                         str_c(c("Mutation(", "Position("), scheme, ")"))
       }
 
-      do.call(datatable, arguments)
+      do.call(datatable_on_page_jquery, arguments)
     })
 
     # Adaptation mutations plot

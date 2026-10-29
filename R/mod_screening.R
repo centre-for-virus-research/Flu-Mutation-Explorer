@@ -348,7 +348,7 @@ screening_server <- function(id, reset = reactive(NULL)) {
       rows <- linked_positions()
 
       if(nrow(rows) == 0) {
-        return(DT::datatable(
+        return(datatable_on_page_jquery(
           tibble(` ` = "No sequences screened yet."),
           rownames = FALSE, options = list(dom = "t")))
       }
@@ -359,7 +359,7 @@ screening_server <- function(id, reset = reactive(NULL)) {
         distinct(reference, doi) %>%
         mutate(Paper = purrr::map2_chr(reference, doi, papers_dois))
 
-      rows %>%
+      screened <- rows %>%
         left_join(papers, by = c("reference", "doi")) %>%
         transmute(
           Query = qseqid,
@@ -370,19 +370,22 @@ screening_server <- function(id, reset = reactive(NULL)) {
           Outcome = outcome,
           Assessed = if_else(catalogued > 0, str_c(assessed, " of ", catalogued), "—"),
           Paper)
-    },
-    escape = FALSE,
-    rownames = FALSE,
-    selection = "none",
-    filter = "top",
-    options = list(pageLength = 25, scrollX = TRUE,
-                   columnDefs = list(list(className = "dt-nowrap", targets = 0:6),
-                                     list(orderable = FALSE, targets = 4))),
-    callback = DT::JS(
-      "table.on('draw.dt', function() {",
-      "  var t = $('[data-bs-toggle=\"tooltip\"]');",
-      "  if (window.bootstrap && t.length) { t.each(function(){ new bootstrap.Tooltip(this); }); }",
-      "});"))
+
+      datatable_on_page_jquery(
+        screened,
+        escape = FALSE,
+        rownames = FALSE,
+        selection = "none",
+        filter = "top",
+        options = list(pageLength = 25, scrollX = TRUE,
+                       columnDefs = list(list(className = "dt-nowrap", targets = 0:6),
+                                         list(orderable = FALSE, targets = 4))),
+        callback = DT::JS(
+          "table.on('draw.dt', function() {",
+          "  var t = $('[data-bs-toggle=\"tooltip\"]');",
+          "  if (window.bootstrap && t.length) { t.each(function(){ new bootstrap.Tooltip(this); }); }",
+          "});"))
+    })
 
     ### Download ###
 

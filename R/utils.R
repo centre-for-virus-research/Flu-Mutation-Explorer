@@ -277,3 +277,14 @@ aligned_query_residues <- function(pairwise) {
            query_amino_acid = na_if(query, "-")) %>% # a gap is "not covered", not a residue
     select(position, query_amino_acid)
 }
+
+# A DT table without the jQuery it carries. Every datatable() lists its own jQuery (3.6.0)
+# among its dependencies, and Shiny loads those when the table renders. The page already
+# has one - bslib's - so the second replaces window.jQuery, and the DataTables core and
+# the searchHighlight plugin, attached to the first, are gone: "body.unhighlight is not a
+# function", and the plot in the same message never draws.
+datatable_on_page_jquery <- function(...) {
+  widget <- DT::datatable(...)
+  widget$dependencies <- purrr::discard(widget$dependencies, ~ .x$name == "jquery")
+  widget
+}

@@ -656,13 +656,13 @@ tree_server <- function(id, jump = reactive(NULL), reset = reactive(NULL)) {
 
     # BLAST hits table
     output$hitsTable <- renderDT({
-                                 req(current_hits()) # no table on a segment with no hits of its own
-                                 current_hits()
-                                 },
-                                 caption = "BLAST hits",
-                                 options = list(pageLength = 100),
-                                 selection = list(mode = 'multiple', selected = c(1)), # select first row
-                                 rownames = FALSE)
+      req(current_hits()) # no table on a segment with no hits of its own
+      datatable_on_page_jquery(current_hits(),
+                               caption = "BLAST hits",
+                               options = list(pageLength = 100),
+                               selection = list(mode = 'multiple', selected = c(1)), # select first row
+                               rownames = FALSE)
+    })
 
     list(cleared = reactive(clearedVal()))
   })
