@@ -18,6 +18,10 @@ ui<- function(id) {
         tags$link(rel = "shortcut icon", href = "favicon-32x32.png"),
         includeHTML("google-analytics.html") # Google Analytics HTML
       ),
+      # DT's own scripts are loaded with the page rather than when the first table renders.
+      # Shiny loads late dependencies without reporting a failed one, which leaves
+      # "$table.DataTable is not a function" in the browser.
+      htmltools::findDependencies(DT::datatable(data.frame())),
       CustomComponents # React and Taxonium
     ),
     
