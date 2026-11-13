@@ -1,0 +1,25 @@
+accession_version	segment	gene	protein_name	protein_id	location	map_status	classification_note
+AB972742.1	7	M	matrix protein	BAP16378.1	11..769	unnamed_cds	generic_M_name_not_specific
+AF523499.1	7	M	matrix protein	AAP49156.1	19..777	unnamed_cds	generic_M_name_not_specific
+AY221533.1	7	M	matrix protein	AAO46809.1	12..770	unnamed_cds	generic_M_name_not_specific
+DQ320955.1	7	M	matrix	ABC66597.1	1..759	unnamed_cds	generic_M_name_not_specific
+EF155017.1	7	M	matrix protein	ABM46045.1	1..759	unnamed_cds	generic_M_name_not_specific
+LC028115.1	7	M	matrix protein	BAQ35819.1	12..770	unnamed_cds	generic_M_name_not_specific
+LC417174.1	7	M	matrix protein	BBF98254.1	11..769	unnamed_cds	generic_M_name_not_specific
+LC626184.1	7	M	matrix protein	BCU41298.1	27..785	unnamed_cds	generic_M_name_not_specific
+LC718285.1	7	M	matrix protein	BDO24260.1	22..780	unnamed_cds	generic_M_name_not_specific
+AB916647.1	8	NS	nonstructural protein	BAO56929.1	12..704	unnamed_cds	generic_NS_name_not_specific
+AY060140.1	8	NS	nonstructural protein	AAL29803.1	5..664	unnamed_cds	generic_NS_name_not_specific
+AY060144.1	8	NS	nonstructural protein	AAL29807.1	5..664	unnamed_cds	generic_NS_name_not_specific
+AY060146.1	8	NS	nonstructural protein	AAL29809.1	5..664	unnamed_cds	generic_NS_name_not_specific
+DQ021560.1	8	NA	nonstructural protein	AAY96540.1	1..693	unnamed_cds	generic_NS_name_not_specific
+DQ021570.1	8	NA	nonstructural protein	AAY96550.1	1..693	unnamed_cds	generic_NS_name_not_specific
+DQ021584.1	8	NA	nonstructural protein	AAY96564.1	1..693	unnamed_cds	generic_NS_name_not_specific
+DQ021600.1	8	NA	nonstructural protein	AAY96580.1	1..693	unnamed_cds	generic_NS_name_not_specific
+DQ650667.1	8	NS	nonstructural protein	ABG38193.1	15..692	unnamed_cds	generic_NS_name_not_specific
+LC536334.1	8	NS	nonstructural protein	BCD40309.1	12..689	unnamed_cds	generic_NS_name_not_specific
+LC536732.1	8	NS	non-structural protein	BCD57640.1	20..673	unnamed_cds	generic_NS_name_not_specific
+LC617421.1	8	NS	nonstructural protein	BCT56659.1	12..704	unnamed_cds	generic_NS_name_not_specific
+AF285886.1	7	M	matrix protein	AAG17430.1	1..759	unnamed_cds	generic_M_name_not_specific
+AY340089.1	7	NA	matrix protein	AAR11371.1	26..784	unnamed_cds	generic_M_name_not_specific
+AY342422.1	8	NA	non-structural protein	AAR04367.1	27..719	unnamed_cds	generic_NS_name_not_specific

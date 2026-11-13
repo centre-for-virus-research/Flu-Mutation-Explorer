@@ -1,0 +1,35 @@
+# Configuration for tests/validate_translation.R
+# Paths are relative to the project root.
+default:
+  paths:
+    matrix: "current_version/IAV_DB_matrix.tsv"
+    proteins_aa: "current_version/alignments/proteins_AA"
+    cds_nt: "current_version/alignments/CDS_nt"
+    # Reference set used for residue numbering (vgtk-flu); the reference-set comparison is skipped if not found
+    ref_set_numbering: "../../Flu_ME/generic-influenza/ref_set_numbering/ref_set_numbering.txt"
+    # GenBank /gene + /product -> product mapping (built with validation/collect_cds_product_names.R)
+    product_map: "tests/cds_product_map.tsv"
+    results: "validation/results"
+    genbank_cache: "validation/genbank_cache"
+
+  # NCBI Entrez: set ENTREZ_EMAIL (and optionally ENTREZ_KEY) as environment variables, e.g. in ~/.Renviron
+  entrez:
+    email: !expr Sys.getenv("ENTREZ_EMAIL")
+    api_key: !expr Sys.getenv("ENTREZ_KEY")
+    tool: "FluME_validation"
+    batch_size: 200
+
+  # Random sample of curated sequences (IAV_DB_matrix.tsv rows with empty "exclusion")
+  #   mode "total":       n_total sequences at random, regardless of segment
+  #   mode "per_segment": n_per_segment sequences per segment (stratified)
+  sampling:
+    mode: "total"
+    n_total: 30000
+    n_per_segment: 375
+    seed: 20261113
+
+  comparison:
+    # HA is compared as the mature protein: max N-terminal residues (signal peptide) allowed to be absent
+    max_signal_peptide: 30
+    # Below this identity the GenBank CDS is considered a different ORF (e.g. PB1-F2 from another start codon)
+    min_identity_same_orf: 0.5
